@@ -1,24 +1,33 @@
 <h1 align="center">Hi 👋, I'm Khan Atik Faisal</h1>
-<h3 align="center">A passionate frontend developer from Bangladesh</h3>
+<h3 align="center">A passionate Fullstack Developer from Bangladesh 🇧🇩</h3>
 <img align="right" alt="Coding" width="400" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=0e75b6&style=flat" alt="khanatik1176" /> </p>
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=0e75b6&style=flat" alt="khanatik1176" /> 
+</p>
 
-- 🌱 I’m currently learning **React Native**
+---
 
-- 💬 Ask me about **React JS, Next JS**
+### 🧑‍💻 About Me
 
-- 📫 How to reach me **khanatik1176@gmail.com**
+- 🔭 I’m currently working as a **Software Engineer at ACI PLC**, building scalable fullstack applications.  
+- 🌱 I’m currently exploring **React Native** and **Cloud Deployment (Vercel | AWS)**.  
+- 💬 Ask me about **React.js, Next.js, Node.js, ASP.NET WebAPI, Tailwind CSS, SQL, MongoDB**  
+- 🚀 Passionate about crafting **high-performance, user-friendly, and scalable web solutions**.  
+- 📫 Reach me at **khanatik1176@gmail.com**  
+- ⚡ Fun fact **I’m a gamer who loves solving real-world problems through code.**
 
-- ⚡ Fun fact **I am a gamer.**
+---
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/khan atik faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="khan atik faisal" height="30" width="40" /></a>
-<a href="https://fb.com/khan atik faisak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="khan atik faisak" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/khanatikfaisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="khanatikfaisal" height="30" width="40" /></a>
+<a href="https://fb.com/khan.atik.faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="khan.atik.faisal" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/sharp_vista_30" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="sharp_vista_30" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/khan_atik_faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="khan_atik_faisal" height="30" width="40" /></a>
 </p>
+
+---
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -37,7 +46,7 @@
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-  <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://image.pngaaa.com/758/7692758-middle.png" alt="nestjs" width="40" height="40"/> </a> 
+  <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" alt="nestjs" width="40" height="40"/> </a> 
   <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> 
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
   <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> 
@@ -51,9 +60,31 @@
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact" alt="khanatik1176" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en" alt="khanatik1176" /></p>
+### 🚀 What I’m Working On
+- 🔹 Developing **scalable fullstack web applications** using **Next.js, Node.js, and SQL**.  
+- 🔹 Experimenting with **React Native** for cross-platform mobile app development.  
+- 🔹 Contributing to **open-source** and improving project maintainability.  
+- 🔹 Enhancing **developer productivity** with automation and clean code practices.  
+
+---
+
+### 📊 GitHub Stats
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="khanatik1176" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en&theme=tokyonight" alt="khanatik1176" /></p>
+
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=khanatik1176&theme=tokyonight" alt="khanatik1176" /></p>
+
+---
+
+### 🏆 GitHub Trophies
+<p align="center"> 
+  <img src="https://github-profile-trophy.vercel.app/?username=khanatik1176&theme=onedark&no-frame=true&margin-w=15&margin-h=15" alt="khanatik1176" />
+</p>
+
+---
 
 ### 🐍 GitHub Contribution Snake
 <p align="center">
@@ -61,3 +92,4 @@
 </p>
 
 ---
+

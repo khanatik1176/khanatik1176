@@ -51,11 +51,20 @@
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact" alt="khanatik1176" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en" alt="khanatik1176" /></p>
-
-<p align="right">
-  <img src="https://streak-stats.demolab.com?user=khanatik1176&theme=radical" alt="GitHub Streak Stats" />
+<p align="center">
+  <table align="center">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://streak-stats.demolab.com?user=khanatik1176&theme=tokyonight" alt="GitHub Streak Stats" />
+      </td>
+    </tr>
+  </table>
 </p>
+
 

@@ -55,4 +55,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en" alt="khanatik1176" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=khanatik1176&" alt="khanatik1176" /></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=khanatik1176&theme=radical" alt="GitHub Streak Stats" />
+</p>

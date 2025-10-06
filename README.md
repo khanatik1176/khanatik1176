@@ -55,4 +55,9 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en" alt="khanatik1176" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=khanatik1176&" alt="khanatik1176" /></p>
+### 🐍 GitHub Contribution Snake
+<p align="center">
+  <img src="https://github.com/khanatik1176/khanatik1176/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---

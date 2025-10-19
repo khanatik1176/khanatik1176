@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **DevOps tools and practices**
 
-- 💬 Ask me about **React JS, Next JS**
+- 💬 Ask me about **Full Stack Development**
 
 - 📫 How to reach me **khanatik1176@gmail.com**
 

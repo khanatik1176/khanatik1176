@@ -87,8 +87,9 @@
 
   <!-- NestJS -->
   <a href="https://nestjs.com/" title="NestJS">
-    <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-256x256-u3y0tizh.png" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" 
+       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+</a>
 
   <!-- Tailwind CSS -->
   <a href="https://tailwindcss.com/" title="Tailwind CSS">

@@ -86,8 +86,8 @@
   </a>
 
   <!-- NestJS -->
-  <a href="https://nestjs.com/" title="NestJS">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" 
+<a href="https://nestjs.com/" title="NestJS">
+  <img src="https://raw.githubusercontent.com/nestjs/docs.nestjs.com/master/src/assets/logo-small.svg"
        width="38" height="38" style="margin: 10px; transition: 0.3s;" />
 </a>
 

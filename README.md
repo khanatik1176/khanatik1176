@@ -97,10 +97,10 @@
   </a>
 
   <!-- NativeWind -->
-  <a href="https://www.nativewind.dev/" title="NativeWind">
-    <img src="https://raw.githubusercontent.com/nativewind/nativewind/main/apps/docs/public/android-chrome-192x192.png"
-      width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
-  </a>
+<a href="https://www.nativewind.dev/" title="NativeWind">
+  <img src="https://raw.githubusercontent.com/nativewind/nativewind/main/apps/docs/public/android-chrome-192x192.png"
+       width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
+</a>
 
   <!-- MongoDB -->
   <a href="https://www.mongodb.com/" title="MongoDB">
@@ -138,9 +138,10 @@
   </a>
 
   <!-- Ant Design -->
-  <a href="https://ant.design/" title="Ant Design">
-    <img src="https://cdn.worldvectorlogo.com/logos/ant-design.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+ <a href="https://ant.design/" title="Ant Design">
+  <img src="https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/ant-design.svg"
+       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+</a>
 
   <!-- Material UI -->
   <a href="https://mui.com/" title="Material UI">

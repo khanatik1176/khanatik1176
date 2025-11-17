@@ -22,23 +22,28 @@
 
 <h3 align="start">Languages</h3>
 <p align="start">
-  <a href="#" title="C++">
+  <a href="https://www.python.org" title="Python">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+  </a>
+    <a href="https://www.typescriptlang.org/" title="TypeScript">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+  </a>
+    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" title="C#">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+</a>
+    <a href="#" title="C++">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
   </a>
-  <a href="#" title="CSS3">
+    <a href="#" title="CSS3">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
   </a>
   <a href="#" title="HTML5">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://www.python.org" title="Python">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" title="TypeScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
   </a>
 </p>
 
@@ -88,6 +93,11 @@
   <!-- NestJS -->
 <a href="https://nestjs.com/" title="NestJS">
   <img src="https://raw.githubusercontent.com/nestjs/docs.nestjs.com/master/src/assets/logo-small.svg"
+       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+</a>
+
+<a href="https://learn.microsoft.com/en-us/dotnet/" title=".NET">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"
        width="38" height="38" style="margin: 10px; transition: 0.3s;" />
 </a>
 

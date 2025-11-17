@@ -20,8 +20,8 @@
 <a href="https://www.leetcode.com/khan_atik_faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="khan_atik_faisal" height="30" width="40" /></a>
 </p>
 
-<h3 align="center">Languages</h3>
-<p align="center">
+<h3 align="start">Languages</h3>
+<p align="start">
   <a href="#" title="C++">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
   </a>
@@ -42,59 +42,120 @@
   </a>
 </p>
 
-<h3 align="center">Tools & Frameworks</h3>
-<p align="center">
-  <a href="https://www.chartjs.org" title="Chart.js">
-    <img src="https://www.chartjs.org/media/logo-title.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+<h3 align="start">Tools & Frameworks</h3>
+<p align="start">
+
+  <!-- Django -->
+  <a href="https://www.djangoproject.com/" title="Django">
+    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://www.docker.com/" title="Docker">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- FastAPI -->
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI">
+    <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://www.figma.com/" title="Figma">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- Node.js -->
+  <a href="https://nodejs.org/" title="Node.js">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://git-scm.com/" title="Git">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- React -->
+  <a href="https://react.dev/" title="React">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://www.mongodb.com/" title="MongoDB">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- React Native -->
+  <a href="https://reactnative.dev/" title="React Native">
+    <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://expressjs.com/" title="Express.js">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s; filter: invert(1);"/>
+
+  <!-- Expo -->
+  <a href="https://expo.dev/" title="Expo">
+    <img src="https://cdn.worldvectorlogo.com/logos/expo-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://www.mysql.com/" title="MySQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://nestjs.com/" title="NestJS">
-    <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-256x256-u3y0tizh.png" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
+
+  <!-- Next.js -->
   <a href="https://nextjs.org/" title="Next.js">
-    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://nodejs.org" title="Node.js">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- Express.js -->
+  <a href="https://expressjs.com/" title="Express.js">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="38" height="38" style="margin: 10px; filter: invert(1); transition: 0.3s;" />
   </a>
-  <a href="https://www.postgresql.org" title="PostgreSQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+
+  <!-- NestJS -->
+  <a href="https://nestjs.com/" title="NestJS">
+    <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-256x256-u3y0tizh.png" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
-  <a href="https://postman.com" title="Postman">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="https://reactjs.org/" title="React">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
+
+  <!-- Tailwind CSS -->
   <a href="https://tailwindcss.com/" title="Tailwind CSS">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
+
+  <!-- NativeWind -->
+  <a href="https://www.nativewind.dev/" title="NativeWind">
+    <img src="https://raw.githubusercontent.com/nativewind/nativewind/main/apps/docs/public/android-chrome-192x192.png"
+      width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
+  </a>
+
+  <!-- MongoDB -->
+  <a href="https://www.mongodb.com/" title="MongoDB">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- MySQL -->
+  <a href="https://www.mysql.com/" title="MySQL">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- MS SQL Server -->
+  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server">
+    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- PostgreSQL -->
+  <a href="https://www.postgresql.org/" title="PostgreSQL">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- Git -->
+  <a href="https://git-scm.com/" title="Git">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- Postman -->
+  <a href="https://postman.com/" title="Postman">
+    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- ShadCN UI -->
+  <a href="https://ui.shadcn.com/" title="ShadCN UI">
+    <img src="https://ui.shadcn.com/apple-touch-icon.png" width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
+  </a>
+
+  <!-- Ant Design -->
+  <a href="https://ant.design/" title="Ant Design">
+    <img src="https://cdn.worldvectorlogo.com/logos/ant-design.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- Material UI -->
+  <a href="https://mui.com/" title="Material UI">
+    <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+  </a>
+
+  <!-- Jest -->
   <a href="https://jestjs.io/" title="Jest">
-    <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+    <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
+
+  <!-- Playwright -->
   <a href="https://playwright.dev/" title="Playwright">
-    <img src="https://playwright.dev/img/playwright-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
+    <img src="https://playwright.dev/img/playwright-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
+
 </p>
 
 

@@ -91,6 +91,11 @@
        width="38" height="38" style="margin: 10px; transition: 0.3s;" />
 </a>
 
+<a href="https://www.docker.com/" title="Docker">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+</a>
+
   <!-- Tailwind CSS -->
   <a href="https://tailwindcss.com/" title="Tailwind CSS">
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />

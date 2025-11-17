@@ -96,12 +96,6 @@
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
   </a>
 
-  <!-- NativeWind -->
-<a href="https://www.nativewind.dev/" title="NativeWind">
-  <img src="https://raw.githubusercontent.com/nativewind/nativewind/main/apps/docs/public/android-chrome-192x192.png"
-       width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
-</a>
-
   <!-- MongoDB -->
   <a href="https://www.mongodb.com/" title="MongoDB">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />

@@ -1,0 +1,83 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="20" x2="1180" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071421"/><stop offset=".55" stop-color="#0B1D2D"/><stop offset="1" stop-color="#071421"/>
+    </linearGradient>
+    <linearGradient id="line" x1="70" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#2DD4BF"/><stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#22D3EE" stop-opacity=".16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <style>
+      .flow{animation:flow 2s linear infinite}.status{animation:status 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .panel{animation:panel 4s ease-in-out infinite}.p2{animation-delay:.5s}.p3{animation-delay:1s}
+      .icon{animation:icon 3s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-40}}@keyframes status{50%{opacity:.45;transform:scale(.72)}}
+      @keyframes panel{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1}}@keyframes icon{0%,100%{opacity:.68}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.flow,.status,.panel,.icon{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="400" rx="30" fill="url(#bg)"/>
+  <rect x=".75" y=".75" width="1198.5" height="398.5" rx="29.25" stroke="#1D3B51" stroke-width="1.5"/>
+  <circle cx="160" cy="170" r="260" fill="url(#halo)"/>
+  <path d="M54 79H1146" stroke="url(#line)" stroke-opacity=".42"/>
+
+  <circle class="status" cx="67" cy="48" r="6" fill="#A3E635"/>
+  <text x="84" y="53" fill="#BEF264" font-size="13" font-family="ui-monospace, monospace" font-weight="700" letter-spacing="2">PRODUCT SYSTEM / ONLINE</text>
+  <text x="1135" y="53" text-anchor="end" fill="#526D80" font-size="12" font-family="ui-monospace, monospace">ABOUT.ME / 02</text>
+
+  <g transform="translate(62 110)">
+    <rect width="605" height="236" rx="24" fill="#0C2030" stroke="#21435A"/>
+    <text x="30" y="45" fill="#64748B" font-size="13" font-family="ui-monospace, monospace" letter-spacing="2">BEYOND THE INTERFACE</text>
+    <text x="30" y="88" fill="#E2E8F0" font-size="31" font-family="Inter, ui-sans-serif, sans-serif" font-weight="800">I build the whole product loop.</text>
+    <text x="30" y="121" fill="#94A3B8" font-size="16" font-family="Inter, ui-sans-serif, sans-serif">Polished interfaces, useful APIs, structured data,</text>
+    <text x="30" y="146" fill="#94A3B8" font-size="16" font-family="Inter, ui-sans-serif, sans-serif">and delivery systems that keep software moving.</text>
+    <path class="flow" d="M31 177H563" stroke="#2DD4BF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="6 14"/>
+    <g transform="translate(30 191)">
+      <rect width="128" height="30" rx="9" fill="#102B3E" stroke="#22D3EE" stroke-opacity=".6"/>
+      <text x="64" y="20" text-anchor="middle" fill="#67E8F9" font-size="12" font-family="ui-monospace, monospace">IDEA</text>
+      <rect x="138" width="128" height="30" rx="9" fill="#102B3E" stroke="#2DD4BF" stroke-opacity=".6"/>
+      <text x="202" y="20" text-anchor="middle" fill="#5EEAD4" font-size="12" font-family="ui-monospace, monospace">BUILD</text>
+      <rect x="276" width="128" height="30" rx="9" fill="#102B3E" stroke="#5EEAD4" stroke-opacity=".6"/>
+      <text x="340" y="20" text-anchor="middle" fill="#99F6E4" font-size="12" font-family="ui-monospace, monospace">SHIP</text>
+      <rect x="414" width="128" height="30" rx="9" fill="#152B2C" stroke="#A3E635" stroke-opacity=".6"/>
+      <text x="478" y="20" text-anchor="middle" fill="#BEF264" font-size="12" font-family="ui-monospace, monospace">IMPROVE</text>
+    </g>
+  </g>
+
+  <g transform="translate(690 110)">
+    <rect class="panel" width="212" height="108" rx="20" fill="#0D2030" stroke="#22D3EE"/>
+    <g class="icon" fill="none" stroke="#67E8F9" stroke-width="2" stroke-linejoin="round">
+      <path d="M28 28L45 19L62 28L45 37L28 28Z"/><path d="M28 38L45 47L62 38"/>
+    </g>
+    <text x="78" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Product craft</text>
+    <text x="25" y="76" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">UX + architecture</text>
+    <text x="25" y="94" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">working as one system</text>
+  </g>
+  <g transform="translate(924 110)">
+    <rect class="panel p2" width="212" height="108" rx="20" fill="#0D2030" stroke="#2DD4BF"/>
+    <g class="icon" fill="none" stroke="#5EEAD4" stroke-width="2">
+      <circle cx="45" cy="32" r="17"/><circle cx="45" cy="32" r="6" fill="#2DD4BF"/><path d="M58 19L45 32"/>
+    </g>
+    <text x="78" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Clean systems</text>
+    <text x="25" y="76" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">Readable by people</text>
+    <text x="25" y="94" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">reliable in production</text>
+  </g>
+  <g transform="translate(690 238)">
+    <rect class="panel p2" width="212" height="108" rx="20" fill="#0D2030" stroke="#5EEAD4"/>
+    <g class="icon" fill="none" stroke="#99F6E4" stroke-width="2" stroke-linejoin="round">
+      <rect x="27" y="18" width="36" height="30" rx="5"/><path d="M34 28L40 34L34 40M45 41H56"/>
+    </g>
+    <text x="78" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">DevOps path</text>
+    <text x="25" y="76" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">Containers + CI/CD</text>
+    <text x="25" y="94" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">shipping with confidence</text>
+  </g>
+  <g transform="translate(924 238)">
+    <rect class="panel p3" width="212" height="108" rx="20" fill="#102323" stroke="#A3E635"/>
+    <g class="icon" fill="none" stroke="#BEF264" stroke-width="2" stroke-linecap="round">
+      <path d="M29 44C29 28 37 20 53 20C53 36 45 44 29 44Z"/><path d="M29 44L53 20M28 49V55"/>
+    </g>
+    <text x="78" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Always leveling</text>
+    <text x="25" y="76" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">Build / learn / repeat</text>
+    <text x="25" y="94" fill="#64748B" font-size="12" font-family="ui-monospace, monospace">gaming between deploys</text>
+  </g>
+</svg>

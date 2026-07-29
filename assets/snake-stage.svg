@@ -1,0 +1,50 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="10" x2="1180" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071421"/><stop offset=".6" stop-color="#0B1D2D"/><stop offset="1" stop-color="#0A201E"/>
+    </linearGradient>
+    <linearGradient id="snake" x1="690" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/><stop offset=".48" stop-color="#2DD4BF"/><stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="17" height="17" rx="4" fill="#102738" stroke="#214158"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .live{animation:live 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .route{animation:route 2s linear infinite}.head{animation:head 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .cell{animation:cell 3s ease-in-out infinite}.c2{animation-delay:.5s}.c3{animation-delay:1s}.c4{animation-delay:1.5s}
+      @keyframes live{50%{opacity:.4;transform:scale(.72)}}@keyframes route{to{stroke-dashoffset:-38}}
+      @keyframes head{50%{transform:scale(1.28)}}@keyframes cell{0%,100%{opacity:.35}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.live,.route,.head,.cell{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="220" rx="28" fill="url(#bg)"/>
+  <rect x=".75" y=".75" width="1198.5" height="218.5" rx="27.25" stroke="#20514C" stroke-width="1.5"/>
+  <path d="M600 25V195" stroke="#1B3A4D"/>
+
+  <circle class="live" cx="60" cy="46" r="6" fill="#A3E635" filter="url(#glow)"/>
+  <text x="78" y="51" fill="#BEF264" font-size="13" font-family="ui-monospace, monospace" font-weight="700" letter-spacing="2">LIVE CONTRIBUTION FEED</text>
+  <text x="52" y="100" fill="#E2E8F0" font-size="31" font-family="Inter, ui-sans-serif, sans-serif" font-weight="800">CONTRIBUTION ENGINE</text>
+  <text x="52" y="130" fill="#7B93A5" font-size="15" font-family="ui-monospace, monospace">Every commit becomes part of the trail.</text>
+
+  <g transform="translate(52 159)">
+    <rect width="138" height="30" rx="9" fill="#102838" stroke="#22D3EE" stroke-opacity=".5"/>
+    <text x="69" y="20" text-anchor="middle" fill="#67E8F9" font-size="11" font-family="ui-monospace, monospace">AUTO UPDATED</text>
+    <rect x="148" width="155" height="30" rx="9" fill="#102838" stroke="#2DD4BF" stroke-opacity=".5"/>
+    <text x="225" y="20" text-anchor="middle" fill="#5EEAD4" font-size="11" font-family="ui-monospace, monospace">THEME ADAPTIVE</text>
+    <rect x="313" width="144" height="30" rx="9" fill="#152A2B" stroke="#A3E635" stroke-opacity=".5"/>
+    <text x="385" y="20" text-anchor="middle" fill="#BEF264" font-size="11" font-family="ui-monospace, monospace">12H REFRESH</text>
+  </g>
+
+  <rect x="650" y="34" width="492" height="144" rx="20" fill="#091923" stroke="#1B4250"/>
+  <rect x="674" y="58" width="444" height="96" fill="url(#grid)"/>
+  <rect class="cell" x="700" y="84" width="17" height="17" rx="4" fill="#0E8A5A"/>
+  <rect class="cell c2" x="772" y="108" width="17" height="17" rx="4" fill="#16A86E"/>
+  <rect class="cell c3" x="940" y="60" width="17" height="17" rx="4" fill="#2DD4BF"/>
+  <rect class="cell c4" x="1060" y="132" width="17" height="17" rx="4" fill="#A3E635"/>
+  <path class="route" d="M688 140H760V116H832V92H904V68H976V92H1048V140H1096" stroke="url(#snake)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 10"/>
+  <circle class="head" cx="1096" cy="140" r="10" fill="#A3E635" filter="url(#glow)"/>
+  <circle cx="1099" cy="137" r="1.7" fill="#071421"/>
+  <text x="896" y="200" text-anchor="middle" fill="#426274" font-size="11" font-family="ui-monospace, monospace" letter-spacing="3">COMMITS IN MOTION</text>
+</svg>

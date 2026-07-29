@@ -16,31 +16,11 @@
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="60%" valign="top">
+<div align="center">
 
-### Building beyond the interface
+<img src="./assets/about-system.svg" width="100%" alt="Building beyond the interface"/>
 
-I turn ideas into reliable products—from polished interfaces to APIs, databases, and deployment workflows.
-
-My current mission is to close the gap between **writing software** and **shipping software** through containers, CI/CD, and better infrastructure practices.
-
-When I am not building, I am probably gaming.
-
-</td>
-<td width="40%" valign="top">
-
-```yaml
-role: Full Stack Developer
-location: Bangladesh
-building: Web products
-exploring: DevOps
-status: Open to collaborate
-```
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 
@@ -60,9 +40,15 @@ status: Open to collaborate
 
 <div align="center">
 
-### Watch the commits disappear
+<img src="./assets/snake-stage.svg" width="100%" alt="Live contribution engine"/>
 
-![Animated contribution snake](https://github.com/khanatik1176/khanatik1176/blob/output/github-contribution-grid-snake.svg?raw=true)
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
+</picture>
 
 </div>
 

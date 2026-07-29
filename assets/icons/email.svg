@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="8" y1="6" x2="58" y2="60">
+      <stop stop-color="#17343B"/><stop offset="1" stop-color="#091522"/>
+    </linearGradient>
+    <style>
+      .ring{animation:ring 5.8s linear infinite;transform-origin:32px 32px}.mark{animation:mail 3s ease-in-out infinite;transform-origin:32px 32px}
+      @keyframes ring{to{transform:rotate(360deg)}}@keyframes mail{50%{transform:translateY(-2px)}}
+      @media(prefers-reduced-motion:reduce){.ring,.mark{animation:none}}
+    </style>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#g)" stroke="#27605F"/>
+  <circle class="ring" cx="32" cy="32" r="25" fill="none" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="26 132"/>
+  <g class="mark" fill="none" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="15" y="20" width="34" height="25" rx="5"/>
+    <path d="M17 24l15 11 15-11"/>
+  </g>
+</svg>

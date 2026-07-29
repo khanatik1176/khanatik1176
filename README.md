@@ -1,15 +1,17 @@
 <div align="center">
   <img src="./assets/profile-hero.svg" width="100%" alt="Khan Atik Faisal — Full Stack Developer"/>
   <br/>
-  <a href="mailto:khanatik1176@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/khan-atik-faisal">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://leetcode.com/khan_atik_faisal">LeetCode</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.codechef.com/users/sharp_vista_30">CodeChef</a>
-  &nbsp;·&nbsp;
-  <a href="https://fb.com/khan.atik.faisal">Facebook</a>
+  <a href="https://github.com/khanatik1176" title="GitHub"><img src="./assets/icons/github.svg" width="54" alt="GitHub"/></a>
+  &nbsp;
+  <a href="mailto:khanatik1176@gmail.com" title="Email"><img src="./assets/icons/email.svg" width="54" alt="Email"/></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/khan-atik-faisal" title="LinkedIn"><img src="./assets/icons/linkedin.svg" width="54" alt="LinkedIn"/></a>
+  &nbsp;
+  <a href="https://leetcode.com/khan_atik_faisal" title="LeetCode"><img src="./assets/icons/leetcode.svg" width="54" alt="LeetCode"/></a>
+  &nbsp;
+  <a href="https://www.codechef.com/users/sharp_vista_30" title="CodeChef"><img src="./assets/icons/codechef.svg" width="54" alt="CodeChef"/></a>
+  &nbsp;
+  <a href="https://fb.com/khan.atik.faisal" title="Facebook"><img src="./assets/icons/facebook.svg" width="54" alt="Facebook"/></a>
 </div>
 
 <br/>

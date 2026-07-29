@@ -8,6 +8,9 @@
       .chip { animation: chipGlow 3s ease-in-out infinite; }
       .chip-two { animation-delay: .5s; }
       .chip-three { animation-delay: 1s; }
+      .orbit { animation: orbitSpin 18s linear infinite; transform-origin: 968px 218px; }
+      .orbit-reverse { animation: orbitSpinReverse 12s linear infinite; transform-origin: 968px 218px; }
+      .particle { animation: particlePulse 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
       @keyframes statusPulse {
         0%, 100% { opacity: .65; transform: scale(.82); }
         50% { opacity: 1; transform: scale(1.25); }
@@ -29,8 +32,18 @@
         0%, 100% { opacity: .72; }
         50% { opacity: 1; }
       }
+      @keyframes orbitSpin {
+        to { transform: rotate(360deg); }
+      }
+      @keyframes orbitSpinReverse {
+        to { transform: rotate(-360deg); }
+      }
+      @keyframes particlePulse {
+        0%, 100% { opacity: .35; transform: scale(.7); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
       @media (prefers-reduced-motion: reduce) {
-        .status-dot, .terminal, .cursor, .scan-line, .chip { animation: none; }
+        .status-dot, .terminal, .cursor, .scan-line, .chip, .orbit, .orbit-reverse, .particle { animation: none; }
       }
     </style>
     <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="420" gradientUnits="userSpaceOnUse">
@@ -87,6 +100,15 @@
     </g>
   </g>
 
+  <g class="orbit" opacity=".65">
+    <ellipse cx="968" cy="218" rx="190" ry="164" fill="none" stroke="#22D3EE" stroke-opacity=".28" stroke-dasharray="4 18"/>
+    <circle class="particle" cx="968" cy="54" r="5" fill="#67E8F9"/>
+    <circle class="particle" cx="1158" cy="218" r="4" fill="#A3E635"/>
+  </g>
+  <g class="orbit-reverse" opacity=".5">
+    <ellipse cx="968" cy="218" rx="174" ry="148" fill="none" stroke="#A3E635" stroke-opacity=".2" stroke-dasharray="2 22"/>
+    <circle class="particle" cx="794" cy="218" r="4" fill="#5EEAD4"/>
+  </g>
   <g class="terminal" filter="url(#shadow)">
     <rect width="316" height="290" rx="22" fill="#091522" stroke="#24415A"/>
     <rect width="316" height="47" rx="22" fill="#102437"/>

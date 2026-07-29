@@ -23,13 +23,13 @@
       .rail{animation:rail 2s linear infinite}
       .scan{animation:scan 5s ease-in-out infinite}
       .tile-bg{animation:border 4s ease-in-out infinite}
-      .logo{animation:logo 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .logo{animation:logo 3s ease-in-out infinite}
       .d2 .tile-bg,.d2 .logo{animation-delay:.25s}.d3 .tile-bg,.d3 .logo{animation-delay:.5s}
       .d4 .tile-bg,.d4 .logo{animation-delay:.75s}.d5 .tile-bg,.d5 .logo{animation-delay:1s}
       @keyframes rail{to{stroke-dashoffset:-36}}
       @keyframes scan{0%,100%{transform:translateX(-190px);opacity:0}15%,80%{opacity:.8}90%{transform:translateX(1190px);opacity:0}}
       @keyframes border{0%,100%{stroke-opacity:.55}50%{stroke-opacity:1}}
-      @keyframes logo{0%,100%{opacity:.72;transform:scale(.94)}50%{opacity:1;transform:scale(1.06)}}
+      @keyframes logo{0%,100%{opacity:.72}50%{opacity:1}}
       @media(prefers-reduced-motion:reduce){.rail,.scan,.tile-bg,.logo{animation:none}}
     </style>
   </defs>

@@ -52,14 +52,11 @@ status: Open to collaborate
 
 <br/>
 
-### Current signal
+<div align="center">
 
-```text
-01  CRAFT     Full-stack product development
-02  FOCUS     Clean architecture and readable code
-03  LEARNING  Containers, CI/CD and deployment
-04  NEXT      Build, measure, improve, repeat
-```
+<img src="./assets/current-signal.svg" width="100%" alt="Current focus and learning signal"/>
+
+</div>
 
 <div align="center">
 

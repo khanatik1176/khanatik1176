@@ -24,7 +24,7 @@ I build full stack web applications, and I'm currently deepening my skills in De
 
 I enjoy clean architecture, readable code, and the occasional weekend of gaming.
 
-**Reach me at** khanatik1176@gmail.com
+**Reach me at** [khanatik1176@gmail.com](mailto:khanatik1176@gmail.com)
 
 </td>
 <td width="40%" align="right">

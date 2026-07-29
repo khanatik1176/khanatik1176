@@ -45,9 +45,9 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake/github-contribution-grid-snake.svg"/>
+  <img src="./assets/snake/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
 </picture>
 
 </div>

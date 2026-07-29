@@ -94,7 +94,7 @@
       <text x="99" y="27" text-anchor="middle" fill="#67E8F9" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">React + Next.js</text>
       <rect class="chip chip-two" x="170" width="156" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
       <path d="M188 16H202V27H188V16ZM191 20H199M191 24H197" stroke="#5EEAD4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="267" y="27" text-anchor="middle" fill="#5EEAD4" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">Node.js + .NET</text>
+      <text x="267" y="27" text-anchor="middle" fill="#5EEAD4" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">NestJS + Django</text>
       <rect class="chip chip-three" x="338" width="154" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
       <path d="M357 15V28M353 19L357 15L361 19M350 28H364" stroke="#BEF264" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="435" y="27" text-anchor="middle" fill="#BEF264" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">DevOps curious</text>

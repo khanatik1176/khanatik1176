@@ -1,147 +1,213 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="590" viewBox="0 0 1200 590" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .card { animation: cardReveal 4s ease-in-out infinite alternate; }
-      .card-two { animation-delay: .25s; }
-      .card-three { animation-delay: .5s; }
-      .card-four { animation-delay: .75s; }
-      .icon-dot { animation: iconPulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .progress { animation: progressFill 2.2s cubic-bezier(.22, 1, .36, 1) both; transform-box: fill-box; transform-origin: left; }
-      .progress-two { animation-delay: .2s; }
-      .progress-three { animation-delay: .4s; }
-      .progress-four { animation-delay: .6s; }
-      .data-flow { animation: dataFlow 1.8s linear infinite; }
-      .data-node { animation: nodeSignal 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .node-two { animation-delay: .35s; }
-      .node-three { animation-delay: .7s; }
-      .node-four { animation-delay: 1.05s; }
-      .tech-mark { animation: techMark 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      @keyframes cardReveal {
-        0%, 12% { opacity: .82; }
-        45%, 100% { opacity: 1; }
-      }
-      @keyframes iconPulse {
-        0%, 100% { opacity: .65; transform: scale(.86); }
-        50% { opacity: 1; transform: scale(1.08); }
-      }
-      @keyframes progressFill {
-        from { transform: scaleX(0); }
-        to { transform: scaleX(1); }
-      }
-      @keyframes dataFlow {
-        to { stroke-dashoffset: -44; }
-      }
-      @keyframes nodeSignal {
-        0%, 100% { opacity: .45; transform: scale(.72); }
-        50% { opacity: 1; transform: scale(1.2); }
-      }
-      @keyframes techMark {
-        0%, 100% { opacity: .72; }
-        50% { opacity: 1; }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .card, .icon-dot, .progress, .data-flow, .data-node, .tech-mark { animation: none; }
-      }
-    </style>
-    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#081421"/>
-      <stop offset=".5" stop-color="#0C1C2B"/>
-      <stop offset="1" stop-color="#081421"/>
+    <linearGradient id="bg" x1="30" y1="20" x2="1170" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071421"/>
+      <stop offset=".5" stop-color="#0B1C2C"/>
+      <stop offset="1" stop-color="#071421"/>
     </linearGradient>
-    <linearGradient id="line" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#2DD4BF"/>
+      <stop offset=".45" stop-color="#2DD4BF"/>
+      <stop offset=".72" stop-color="#A3E635"/>
       <stop offset="1" stop-color="#A3E635" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="halo">
+      <stop stop-color="#22D3EE" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <style>
+      .rail{animation:rail 2s linear infinite}
+      .scan{animation:scan 5s ease-in-out infinite}
+      .tile-bg{animation:border 4s ease-in-out infinite}
+      .logo{animation:logo 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .d2 .tile-bg,.d2 .logo{animation-delay:.25s}.d3 .tile-bg,.d3 .logo{animation-delay:.5s}
+      .d4 .tile-bg,.d4 .logo{animation-delay:.75s}.d5 .tile-bg,.d5 .logo{animation-delay:1s}
+      @keyframes rail{to{stroke-dashoffset:-36}}
+      @keyframes scan{0%,100%{transform:translateX(-190px);opacity:0}15%,80%{opacity:.8}90%{transform:translateX(1190px);opacity:0}}
+      @keyframes border{0%,100%{stroke-opacity:.55}50%{stroke-opacity:1}}
+      @keyframes logo{0%,100%{opacity:.72;transform:scale(.94)}50%{opacity:1;transform:scale(1.06)}}
+      @media(prefers-reduced-motion:reduce){.rail,.scan,.tile-bg,.logo{animation:none}}
+    </style>
   </defs>
 
-  <rect width="1200" height="430" rx="28" fill="url(#panel)"/>
-  <path d="M80 92H1120" stroke="url(#line)" stroke-width="2"/>
+  <rect width="1200" height="590" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="590" rx="30" stroke="#1D3B51"/>
+  <circle cx="130" cy="100" r="240" fill="url(#halo)"/>
+  <circle cx="1090" cy="510" r="250" fill="url(#halo)" opacity=".55"/>
 
-  <text x="600" y="48" text-anchor="middle" fill="#E2E8F0" font-size="27" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">THE TOOLKIT</text>
-  <text x="600" y="75" text-anchor="middle" fill="#64748B" font-size="14" font-family="ui-monospace, SFMono-Regular, monospace" letter-spacing="2">DESIGN  /  BUILD  /  TEST  /  SHIP</text>
-  <path class="data-flow" d="M172 108H1026" stroke="#2DD4BF" stroke-opacity=".5" stroke-width="2" stroke-dasharray="5 17"/>
-  <circle class="data-node" cx="172" cy="108" r="5" fill="#22D3EE"/>
-  <circle class="data-node node-two" cx="456" cy="108" r="5" fill="#2DD4BF"/>
-  <circle class="data-node node-three" cx="740" cy="108" r="5" fill="#5EEAD4"/>
-  <circle class="data-node node-four" cx="1026" cy="108" r="5" fill="#A3E635"/>
+  <text x="600" y="49" text-anchor="middle" fill="#E2E8F0" font-size="28" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" letter-spacing="1">TECH CONSTELLATION</text>
+  <text x="600" y="78" text-anchor="middle" fill="#64748B" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" letter-spacing="3">A FULL-STACK SYSTEM, NOT A LOGO WALL</text>
+  <path d="M80 102H1120" stroke="url(#accent)" stroke-width="2"/>
+  <path class="rail" d="M176 151V512" stroke="#2DD4BF" stroke-opacity=".45" stroke-width="2" stroke-dasharray="4 14"/>
+  <rect class="scan" x="0" y="101" width="180" height="2" rx="1" fill="url(#accent)"/>
 
-  <g class="card" transform="translate(42 124)">
-    <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#22D3EE" filter="url(#glow)"/>
-    <path d="M31 27L24 34L31 41M39 27L46 34L39 41" stroke="#67E8F9" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="58" y="41" fill="#67E8F9" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">LANGUAGES</text>
-    <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Python</text>
-    <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">JavaScript / TypeScript</text>
-    <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">C# / C++</text>
-    <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">HTML / CSS</text>
-    <g class="tech-mark" transform="translate(205 73)">
-      <rect width="31" height="22" rx="6" fill="#16384C" stroke="#22D3EE"/>
-      <text x="15.5" y="16" text-anchor="middle" fill="#67E8F9" font-size="11" font-family="ui-monospace, monospace" font-weight="700">PY</text>
-    </g>
-    <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect class="progress" x="25" y="215" width="166" height="5" rx="2.5" fill="#22D3EE"/>
+  <!-- Languages -->
+  <g transform="translate(42 120)">
+    <rect width="120" height="76" rx="18" fill="#0E2B3B" stroke="#22D3EE"/>
+    <path d="M24 25L14 38L24 51M96 25L106 38L96 51" stroke="#67E8F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="43" text-anchor="middle" fill="#CFFAFE" font-size="13" font-family="ui-monospace, monospace" font-weight="700">LANGUAGES</text>
+  </g>
+  <g class="d1" transform="translate(198 120)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#F7DF1E"/>
+    <rect class="logo" x="14" y="15" width="46" height="46" rx="12" fill="#F7DF1E"/>
+    <text x="52" y="55" text-anchor="end" fill="#111827" font-size="17" font-family="Arial, sans-serif" font-weight="800">JS</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">JavaScript</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">language</text>
+  </g>
+  <g class="d2" transform="translate(386 120)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#3178C6"/>
+    <rect class="logo" x="14" y="15" width="46" height="46" rx="12" fill="#3178C6"/>
+    <text x="52" y="55" text-anchor="end" fill="white" font-size="17" font-family="Arial, sans-serif" font-weight="800">TS</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">TypeScript</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">typed web</text>
+  </g>
+  <g class="d3" transform="translate(574 120)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#4B8BBE"/>
+    <g class="logo"><path d="M18 24C18 17 24 14 35 15V29H17C15 29 14 27 14 25S16 22 18 22" fill="#4B8BBE"/><path d="M56 52C56 59 50 62 39 61V47H57C59 47 60 49 60 51S58 54 56 54" fill="#FFD43B"/><circle cx="27" cy="21" r="2" fill="white"/><circle cx="48" cy="55" r="2" fill="#172033"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Python</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">backend + data</text>
+  </g>
+  <g class="d4" transform="translate(762 120)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#9B4F96"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#9B4F96"/>
+    <text x="37" y="44" text-anchor="middle" fill="white" font-size="15" font-family="Arial, sans-serif" font-weight="800">C#</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">C Sharp</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">.NET language</text>
+  </g>
+  <g class="d5" transform="translate(950 120)">
+    <rect class="tile-bg" width="208" height="76" rx="17" fill="#0D2030" stroke="#659AD2"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#1F5E95"/>
+    <text x="37" y="44" text-anchor="middle" fill="white" font-size="14" font-family="Arial, sans-serif" font-weight="800">C++</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">C Plus Plus</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">systems</text>
   </g>
 
-  <g class="card card-two" transform="translate(326 124)">
-    <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#2DD4BF" filter="url(#glow)"/>
-    <rect x="24" y="26" width="22" height="16" rx="2" stroke="#5EEAD4" stroke-width="2"/>
-    <path d="M24 31H46M29 28.5H30M33 28.5H34" stroke="#5EEAD4" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="58" y="41" fill="#5EEAD4" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">FRONTEND</text>
-    <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">React / Next.js</text>
-    <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Tailwind CSS</text>
-    <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Material UI</text>
-    <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Responsive systems</text>
-    <g class="tech-mark" transform="translate(205 73)">
-      <circle cx="15" cy="11" r="3" fill="#5EEAD4"/>
-      <ellipse cx="15" cy="11" rx="14" ry="5" fill="none" stroke="#5EEAD4"/>
-      <ellipse cx="15" cy="11" rx="14" ry="5" fill="none" stroke="#5EEAD4" transform="rotate(60 15 11)"/>
-      <ellipse cx="15" cy="11" rx="14" ry="5" fill="none" stroke="#5EEAD4" transform="rotate(120 15 11)"/>
-    </g>
-    <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect class="progress progress-two" x="25" y="215" width="179" height="5" rx="2.5" fill="#2DD4BF"/>
+  <!-- Frontend -->
+  <g transform="translate(42 226)">
+    <rect width="120" height="76" rx="18" fill="#0E2B3B" stroke="#2DD4BF"/>
+    <rect x="15" y="21" width="90" height="40" rx="7" fill="none" stroke="#5EEAD4" stroke-width="2"/>
+    <path d="M15 31H105" stroke="#5EEAD4" stroke-width="2"/>
+    <text x="60" y="49" text-anchor="middle" fill="#CCFBF1" font-size="13" font-family="ui-monospace, monospace" font-weight="700">FRONTEND</text>
+  </g>
+  <g class="d1" transform="translate(198 226)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#61DAFB"/>
+    <g class="logo" transform="translate(14 15)"><circle cx="23" cy="23" r="4" fill="#61DAFB"/><ellipse cx="23" cy="23" rx="21" ry="8" fill="none" stroke="#61DAFB" stroke-width="2"/><ellipse cx="23" cy="23" rx="21" ry="8" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(60 23 23)"/><ellipse cx="23" cy="23" rx="21" ry="8" fill="none" stroke="#61DAFB" stroke-width="2" transform="rotate(120 23 23)"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">React</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">component UI</text>
+  </g>
+  <g class="d2" transform="translate(386 226)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#E2E8F0"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#E2E8F0"/>
+    <text x="37" y="45" text-anchor="middle" fill="#071421" font-size="24" font-family="Georgia, serif" font-weight="800">N</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Next.js</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">React framework</text>
+  </g>
+  <g class="d3" transform="translate(574 226)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#38BDF8"/>
+    <g class="logo" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"><path d="M15 32C21 22 27 22 35 28C42 33 47 33 59 20"/><path d="M15 48C21 38 27 38 35 44C42 49 47 49 59 36"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Tailwind</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">design system</text>
+  </g>
+  <g class="d4" transform="translate(762 226)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#007FFF"/>
+    <path class="logo" d="M14 53V23L27 30L37 20L60 33V53L48 46V36L37 42L26 36V53H14Z" fill="#007FFF"/>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Material UI</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">UI library</text>
+  </g>
+  <g class="d5" transform="translate(950 226)">
+    <rect class="tile-bg" width="208" height="76" rx="17" fill="#0D2030" stroke="#F97316"/>
+    <rect class="logo" x="14" y="15" width="46" height="46" rx="12" fill="#F97316"/>
+    <text x="37" y="44" text-anchor="middle" fill="white" font-size="15" font-family="ui-monospace, monospace" font-weight="800">&lt;/&gt;</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">HTML + CSS</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">web platform</text>
   </g>
 
-  <g class="card card-three" transform="translate(610 124)">
-    <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#5EEAD4" filter="url(#glow)"/>
-    <rect x="24" y="25" width="22" height="7" rx="2" stroke="#99F6E4" stroke-width="1.8"/>
-    <rect x="24" y="36" width="22" height="7" rx="2" stroke="#99F6E4" stroke-width="1.8"/>
-    <circle cx="28" cy="28.5" r="1" fill="#99F6E4"/>
-    <circle cx="28" cy="39.5" r="1" fill="#99F6E4"/>
-    <text x="58" y="41" fill="#99F6E4" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">BACKEND</text>
-    <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Node / Express / Nest</text>
-    <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Django / FastAPI</text>
-    <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">.NET</text>
-    <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">REST APIs</text>
-    <g class="tech-mark" transform="translate(205 73)">
-      <path d="M15 0L29 8V24L15 32L1 24V8L15 0Z" fill="#153A35" stroke="#5EEAD4"/>
-      <text x="15" y="20" text-anchor="middle" fill="#99F6E4" font-size="11" font-family="ui-monospace, monospace" font-weight="700">N</text>
-    </g>
-    <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect class="progress progress-three" x="25" y="215" width="172" height="5" rx="2.5" fill="#5EEAD4"/>
+  <!-- Backend -->
+  <g transform="translate(42 332)">
+    <rect width="120" height="76" rx="18" fill="#0E2B3B" stroke="#5EEAD4"/>
+    <rect x="18" y="21" width="84" height="17" rx="4" fill="none" stroke="#99F6E4" stroke-width="2"/>
+    <rect x="18" y="44" width="84" height="17" rx="4" fill="none" stroke="#99F6E4" stroke-width="2"/>
+    <text x="60" y="36" text-anchor="middle" fill="#CCFBF1" font-size="11" font-family="ui-monospace, monospace" font-weight="700">BACKEND</text>
+  </g>
+  <g class="d1" transform="translate(198 332)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#68A063"/>
+    <path class="logo" d="M37 13L59 26V51L37 64L15 51V26L37 13Z" fill="#2E6B39"/>
+    <text x="37" y="45" text-anchor="middle" fill="#9BE28F" font-size="21" font-family="Arial, sans-serif" font-weight="800">N</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Node.js</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">runtime</text>
+  </g>
+  <g class="d2" transform="translate(386 332)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#E0234E"/>
+    <path class="logo" d="M37 13L59 25V51L37 64L15 51V25L37 13ZM37 25L27 31V45L37 51L47 45V31L37 25Z" fill="#E0234E" fill-rule="evenodd"/>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">NestJS</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">structured APIs</text>
+  </g>
+  <g class="d3" transform="translate(574 332)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#44B78B"/>
+    <rect class="logo" x="14" y="15" width="46" height="46" rx="12" fill="#0C4B33"/>
+    <text x="37" y="46" text-anchor="middle" fill="#44B78B" font-size="24" font-family="Georgia, serif" font-weight="800">D</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Django</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">Python web</text>
+  </g>
+  <g class="d4" transform="translate(762 332)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#009688"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#009688"/>
+    <path d="M40 17L25 40H36L33 58L49 33H38L40 17Z" fill="white"/>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">FastAPI</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">fast services</text>
+  </g>
+  <g class="d5" transform="translate(950 332)">
+    <rect class="tile-bg" width="208" height="76" rx="17" fill="#0D2030" stroke="#7C3AED"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#512BD4"/>
+    <text x="37" y="43" text-anchor="middle" fill="white" font-size="12" font-family="Arial, sans-serif" font-weight="800">.NET</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">ASP.NET</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">enterprise web</text>
   </g>
 
-  <g class="card card-four" transform="translate(894 124)">
-    <rect width="264" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#A3E635" filter="url(#glow)"/>
-    <ellipse cx="35" cy="27" rx="10" ry="4" stroke="#BEF264" stroke-width="1.8"/>
-    <path d="M25 27V40C25 42.2 29.5 44 35 44C40.5 44 45 42.2 45 40V27M25 33.5C25 35.7 29.5 37.5 35 37.5C40.5 37.5 45 35.7 45 33.5" stroke="#BEF264" stroke-width="1.8"/>
-    <text x="58" y="41" fill="#BEF264" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">DATA + OPS</text>
-    <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Postgres / MySQL</text>
-    <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">MongoDB</text>
-    <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Docker / Git</text>
-    <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Jest / Playwright</text>
-    <g class="tech-mark" transform="translate(208 73)">
-      <path d="M14 1C8 7 6 13 8 19C9 23 12 26 14 30C16 26 19 23 20 19C22 13 20 7 14 1Z" fill="#A3E635" fill-opacity=".18" stroke="#BEF264"/>
-      <path d="M14 8V25" stroke="#BEF264" stroke-linecap="round"/>
-    </g>
-    <rect x="25" y="215" width="214" height="5" rx="2.5" fill="#102A3D"/>
-    <rect class="progress progress-four" x="25" y="215" width="146" height="5" rx="2.5" fill="#A3E635"/>
+  <!-- Data and delivery -->
+  <g transform="translate(42 438)">
+    <rect width="120" height="76" rx="18" fill="#172B2C" stroke="#A3E635"/>
+    <ellipse cx="60" cy="27" rx="28" ry="9" fill="none" stroke="#BEF264" stroke-width="2"/>
+    <path d="M32 27V49C32 54 45 58 60 58C75 58 88 54 88 49V27M32 38C32 43 45 47 60 47C75 47 88 43 88 38" stroke="#BEF264" stroke-width="2"/>
+    <text x="60" y="39" text-anchor="middle" fill="#ECFCCB" font-size="10" font-family="ui-monospace, monospace" font-weight="700">DATA+OPS</text>
   </g>
+  <g class="d1" transform="translate(198 438)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#47A248"/>
+    <path class="logo" d="M37 12C27 24 25 37 36 62C47 40 50 25 37 12Z" fill="#47A248"/><path d="M37 20V56" stroke="#B7E4B8" stroke-width="2"/>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">MongoDB</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">document data</text>
+  </g>
+  <g class="d2" transform="translate(386 438)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#4169E1"/>
+    <circle class="logo" cx="37" cy="38" r="23" fill="#244A93"/>
+    <text x="37" y="43" text-anchor="middle" fill="#BFD1FF" font-size="11" font-family="Arial, sans-serif" font-weight="800">SQL</text>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">PostgreSQL</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">relational data</text>
+  </g>
+  <g class="d3" transform="translate(574 438)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#2496ED"/>
+    <g class="logo" fill="#2496ED"><rect x="16" y="28" width="10" height="9"/><rect x="28" y="28" width="10" height="9"/><rect x="40" y="28" width="10" height="9"/><rect x="28" y="17" width="10" height="9"/><path d="M14 40H57C55 53 46 60 33 60C22 60 16 53 14 40Z"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Docker</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">containers</text>
+  </g>
+  <g class="d4" transform="translate(762 438)">
+    <rect class="tile-bg" width="176" height="76" rx="17" fill="#0D2030" stroke="#F05032"/>
+    <g class="logo" fill="none" stroke="#F05032" stroke-width="3"><circle cx="26" cy="25" r="6"/><circle cx="49" cy="49" r="6"/><circle cx="26" cy="51" r="6"/><path d="M26 31V45M32 27C43 28 49 34 49 43"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Git</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">version control</text>
+  </g>
+  <g class="d5" transform="translate(950 438)">
+    <rect class="tile-bg" width="208" height="76" rx="17" fill="#0D2030" stroke="#C21325"/>
+    <g class="logo"><path d="M17 20H57L53 55H21L17 20Z" fill="#C21325" fill-opacity=".35" stroke="#E95B68"/><circle cx="29" cy="35" r="3" fill="#E95B68"/><circle cx="45" cy="35" r="3" fill="#E95B68"/><path d="M27 46C33 50 41 50 47 46" stroke="#E95B68" stroke-width="2" stroke-linecap="round"/></g>
+    <text x="72" y="35" fill="#E2E8F0" font-size="15" font-family="Inter, sans-serif" font-weight="700">Jest + PW</text>
+    <text x="72" y="54" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">test automation</text>
+  </g>
+
+  <text x="600" y="554" text-anchor="middle" fill="#64748B" font-size="12" font-family="ui-monospace, monospace" letter-spacing="2">FROM IDEA  /  TO INTERFACE  /  TO API  /  TO PRODUCTION</text>
+  <circle cx="425" cy="550" r="3" fill="#22D3EE" filter="url(#soft)"/>
+  <circle cx="775" cy="550" r="3" fill="#A3E635" filter="url(#soft)"/>
 </svg>

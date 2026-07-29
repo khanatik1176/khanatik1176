@@ -1,189 +1,123 @@
-<h1 align="center">Hi 👋, I'm Khan Atik Faisal</h1>
-<h3 align="center">Full Stack Developer from Bangladesh | Exploring the world of DevOps</h3>
-<img align="right" alt="Coding" width="400" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif">
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=0e75b6&style=flat" alt="khanatik1176" /> </p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6a11cb&height=200&section=header&text=Khan%20Atik%20Faisal&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Exploring%20DevOps&descAlignY=55&descSize=18" width="100%"/>
 
-- 🌱 I’m currently learning **DevOps tools and practices**
-
-- 💬 Ask me about **Full Stack Development**
-
-- 📫 How to reach me **khanatik1176@gmail.com**
-
-- ⚡ Fun fact **I am a gamer.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/khan atik faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="khan atik faisal" height="30" width="40" /></a>
-<a href="https://fb.com/khan atik faisak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="khan atik faisak" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/sharp_vista_30" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="sharp_vista_30" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/khan_atik_faisal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="khan_atik_faisal" height="30" width="40" /></a>
-</p>
-
-<h3 align="start">Languages</h3>
-<p align="start">
-  <a href="https://www.python.org" title="Python">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-    <a href="https://www.typescriptlang.org/" title="TypeScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" title="C#">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
-       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-</a>
-    <a href="#" title="C++">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-    <a href="#" title="CSS3">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-  <a href="#" title="HTML5">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;"/>
-  </a>
-</p>
-
-<h3 align="start">Tools & Frameworks</h3>
-<p align="start">
-
-  <!-- Django -->
-  <a href="https://www.djangoproject.com/" title="Django">
-    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- FastAPI -->
-  <a href="https://fastapi.tiangolo.com/" title="FastAPI">
-    <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- Node.js -->
-  <a href="https://nodejs.org/" title="Node.js">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- React -->
-  <a href="https://react.dev/" title="React">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- React Native -->
-  <a href="https://reactnative.dev/" title="React Native">
-    <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- Expo -->
-  <a href="https://expo.dev/" title="Expo">
-    <img src="https://cdn.worldvectorlogo.com/logos/expo-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- Next.js -->
-  <a href="https://nextjs.org/" title="Next.js">
-    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
-
-  <!-- Express.js -->
-  <a href="https://expressjs.com/" title="Express.js">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="38" height="38" style="margin: 10px; filter: invert(1); transition: 0.3s;" />
-  </a>
-
-  <!-- NestJS -->
-<a href="https://nestjs.com/" title="NestJS">
-  <img src="https://raw.githubusercontent.com/nestjs/docs.nestjs.com/master/src/assets/logo-small.svg"
-       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
+<a href="https://linkedin.com/in/khan-atik-faisal">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+from+Bangladesh;Building+with+React%2C+Node.js+%26+.NET;Currently+Diving+into+DevOps;Always+up+for+a+good+coding+challenge" alt="Typing SVG" />
 </a>
 
-<a href="https://learn.microsoft.com/en-us/dotnet/" title=".NET">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"
-       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-</a>
+</div>
 
-<a href="https://www.docker.com/" title="Docker">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
-       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-</a>
+<br>
 
-  <!-- Tailwind CSS -->
-  <a href="https://tailwindcss.com/" title="Tailwind CSS">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+<table align="center">
+<tr>
+<td width="60%" valign="top">
 
-  <!-- MongoDB -->
-  <a href="https://www.mongodb.com/" title="MongoDB">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+### 👋 About Me
 
-  <!-- MySQL -->
-  <a href="https://www.mysql.com/" title="MySQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+- 🔭 Full Stack Developer building with **React, Node.js, .NET & Django**
+- 🌱 Currently leveling up my **DevOps** skills — Docker, CI/CD, and beyond
+- 💬 Ask me about **Full Stack Development** — happy to help or collaborate
+- ⚡ Fun fact: **I'm a gamer** when I'm not shipping code
+- 📫 Reach me at **khanatik1176@gmail.com**
 
-  <!-- MS SQL Server -->
-  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+</td>
+<td width="40%" align="center">
+<img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif" width="260" style="border-radius: 12px;"/>
+</td>
+</tr>
+</table>
 
-  <!-- PostgreSQL -->
-  <a href="https://www.postgresql.org/" title="PostgreSQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20Views&color=6a11cb&style=for-the-badge" alt="Profile views"/>
+</div>
 
-  <!-- Git -->
-  <a href="https://git-scm.com/" title="Git">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+<br>
 
-  <!-- Postman -->
-  <a href="https://postman.com/" title="Postman">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+## 🔗 Connect With Me
 
-  <!-- ShadCN UI -->
-  <a href="https://ui.shadcn.com/" title="ShadCN UI">
-    <img src="https://ui.shadcn.com/apple-touch-icon.png" width="38" height="38" style="margin: 10px; border-radius: 6px; transition: 0.3s;" />
-  </a>
+<div align="center">
 
-  <!-- Ant Design -->
- <a href="https://ant.design/" title="Ant Design">
-  <img src="https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/ant-design.svg"
-       width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khan-atik-faisal)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/khan.atik.faisal)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/sharp_vista_30)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/khan_atik_faisal)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khanatik1176@gmail.com)
 
-  <!-- Material UI -->
-  <a href="https://mui.com/" title="Material UI">
-    <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+</div>
 
-  <!-- Jest -->
-  <a href="https://jestjs.io/" title="Jest">
-    <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+<br>
 
-  <!-- Playwright -->
-  <a href="https://playwright.dev/" title="Playwright">
-    <img src="https://playwright.dev/img/playwright-logo.svg" width="38" height="38" style="margin: 10px; transition: 0.3s;" />
-  </a>
+## 🛠️ Tech Stack
 
-</p>
+<div align="center">
 
+**Languages**
 
-<p align="center">
-  <table align="center">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://streak-stats.demolab.com?user=khanatik1176&theme=tokyonight" alt="GitHub Streak Stats" />
-      </td>
-    </tr>
-  </table>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+**Frameworks & Libraries**
 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![ShadCN UI](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant_Design-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Material UI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/MS_SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+
+**Tools & Testing**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+</div>
+
+<br>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&count_private=true&locale=en&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&layout=compact&locale=en&theme=tokyonight&hide_border=true" width="49%" alt="Top Languages"/>
+
+<img src="https://streak-stats.demolab.com?user=khanatik1176&theme=tokyonight&hide_border=true" width="70%" alt="GitHub Streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=khanatik1176&theme=tokyo-night&hide_border=true" width="100%" alt="Contribution Graph"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:0e75b6&height=100&section=footer" width="100%"/>
+
+**Thanks for stopping by! Feel free to reach out if you'd like to collaborate 🚀**
+
+</div>

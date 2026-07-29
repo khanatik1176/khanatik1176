@@ -1,5 +1,31 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      .card { animation: cardReveal 4s ease-in-out infinite alternate; }
+      .card-two { animation-delay: .25s; }
+      .card-three { animation-delay: .5s; }
+      .card-four { animation-delay: .75s; }
+      .icon-dot { animation: iconPulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .progress { animation: progressFill 2.2s cubic-bezier(.22, 1, .36, 1) both; transform-box: fill-box; transform-origin: left; }
+      .progress-two { animation-delay: .2s; }
+      .progress-three { animation-delay: .4s; }
+      .progress-four { animation-delay: .6s; }
+      @keyframes cardReveal {
+        0%, 12% { opacity: .82; }
+        45%, 100% { opacity: 1; }
+      }
+      @keyframes iconPulse {
+        0%, 100% { opacity: .65; transform: scale(.86); }
+        50% { opacity: 1; transform: scale(1.08); }
+      }
+      @keyframes progressFill {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .card, .icon-dot, .progress { animation: none; }
+      }
+    </style>
     <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
       <stop stop-color="#081421"/>
       <stop offset=".5" stop-color="#0C1C2B"/>
@@ -22,51 +48,60 @@
   <text x="600" y="48" text-anchor="middle" fill="#E2E8F0" font-size="27" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">THE TOOLKIT</text>
   <text x="600" y="75" text-anchor="middle" fill="#64748B" font-size="14" font-family="ui-monospace, SFMono-Regular, monospace" letter-spacing="2">DESIGN  /  BUILD  /  TEST  /  SHIP</text>
 
-  <g transform="translate(42 124)">
+  <g class="card" transform="translate(42 124)">
     <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle cx="35" cy="34" r="9" fill="#22D3EE" filter="url(#glow)"/>
+    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#22D3EE" filter="url(#glow)"/>
+    <path d="M31 27L24 34L31 41M39 27L46 34L39 41" stroke="#67E8F9" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="58" y="41" fill="#67E8F9" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">LANGUAGES</text>
     <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Python</text>
     <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">JavaScript / TypeScript</text>
     <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">C# / C++</text>
     <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">HTML / CSS</text>
     <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect x="25" y="215" width="166" height="5" rx="2.5" fill="#22D3EE"/>
+    <rect class="progress" x="25" y="215" width="166" height="5" rx="2.5" fill="#22D3EE"/>
   </g>
 
-  <g transform="translate(326 124)">
+  <g class="card card-two" transform="translate(326 124)">
     <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle cx="35" cy="34" r="9" fill="#2DD4BF" filter="url(#glow)"/>
+    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#2DD4BF" filter="url(#glow)"/>
+    <rect x="24" y="26" width="22" height="16" rx="2" stroke="#5EEAD4" stroke-width="2"/>
+    <path d="M24 31H46M29 28.5H30M33 28.5H34" stroke="#5EEAD4" stroke-width="1.5" stroke-linecap="round"/>
     <text x="58" y="41" fill="#5EEAD4" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">FRONTEND</text>
     <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">React / Next.js</text>
     <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Tailwind CSS</text>
     <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Material UI</text>
     <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Responsive systems</text>
     <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect x="25" y="215" width="179" height="5" rx="2.5" fill="#2DD4BF"/>
+    <rect class="progress progress-two" x="25" y="215" width="179" height="5" rx="2.5" fill="#2DD4BF"/>
   </g>
 
-  <g transform="translate(610 124)">
+  <g class="card card-three" transform="translate(610 124)">
     <rect width="260" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle cx="35" cy="34" r="9" fill="#5EEAD4" filter="url(#glow)"/>
+    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#5EEAD4" filter="url(#glow)"/>
+    <rect x="24" y="25" width="22" height="7" rx="2" stroke="#99F6E4" stroke-width="1.8"/>
+    <rect x="24" y="36" width="22" height="7" rx="2" stroke="#99F6E4" stroke-width="1.8"/>
+    <circle cx="28" cy="28.5" r="1" fill="#99F6E4"/>
+    <circle cx="28" cy="39.5" r="1" fill="#99F6E4"/>
     <text x="58" y="41" fill="#99F6E4" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">BACKEND</text>
     <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Node / Express / Nest</text>
     <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Django / FastAPI</text>
     <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">.NET</text>
     <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">REST APIs</text>
     <rect x="25" y="215" width="210" height="5" rx="2.5" fill="#102A3D"/>
-    <rect x="25" y="215" width="172" height="5" rx="2.5" fill="#5EEAD4"/>
+    <rect class="progress progress-three" x="25" y="215" width="172" height="5" rx="2.5" fill="#5EEAD4"/>
   </g>
 
-  <g transform="translate(894 124)">
+  <g class="card card-four" transform="translate(894 124)">
     <rect width="264" height="250" rx="20" fill="#0D2031" stroke="#1E3A4F"/>
-    <circle cx="35" cy="34" r="9" fill="#A3E635" filter="url(#glow)"/>
+    <circle class="icon-dot" cx="35" cy="34" r="18" fill="#123247" stroke="#A3E635" filter="url(#glow)"/>
+    <ellipse cx="35" cy="27" rx="10" ry="4" stroke="#BEF264" stroke-width="1.8"/>
+    <path d="M25 27V40C25 42.2 29.5 44 35 44C40.5 44 45 42.2 45 40V27M25 33.5C25 35.7 29.5 37.5 35 37.5C40.5 37.5 45 35.7 45 33.5" stroke="#BEF264" stroke-width="1.8"/>
     <text x="58" y="41" fill="#BEF264" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="700">DATA + OPS</text>
     <text x="25" y="89" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Postgres / MySQL</text>
     <text x="25" y="122" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">MongoDB</text>
     <text x="25" y="155" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Docker / Git</text>
     <text x="25" y="188" fill="#E2E8F0" font-size="16" font-family="ui-monospace, SFMono-Regular, monospace">Jest / Playwright</text>
     <rect x="25" y="215" width="214" height="5" rx="2.5" fill="#102A3D"/>
-    <rect x="25" y="215" width="146" height="5" rx="2.5" fill="#A3E635"/>
+    <rect class="progress progress-four" x="25" y="215" width="146" height="5" rx="2.5" fill="#A3E635"/>
   </g>
 </svg>

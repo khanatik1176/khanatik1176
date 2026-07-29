@@ -1,5 +1,38 @@
 <svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      .status-dot { animation: statusPulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .terminal { animation: terminalFloat 5s ease-in-out infinite; }
+      .cursor { animation: cursorBlink 1s steps(2, end) infinite; }
+      .scan-line { animation: scanMove 4s ease-in-out infinite; }
+      .chip { animation: chipGlow 3s ease-in-out infinite; }
+      .chip-two { animation-delay: .5s; }
+      .chip-three { animation-delay: 1s; }
+      @keyframes statusPulse {
+        0%, 100% { opacity: .65; transform: scale(.82); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+      @keyframes terminalFloat {
+        0%, 100% { transform: translate(810px, 74px); }
+        50% { transform: translate(810px, 64px); }
+      }
+      @keyframes cursorBlink {
+        0%, 45% { opacity: 1; }
+        46%, 100% { opacity: 0; }
+      }
+      @keyframes scanMove {
+        0%, 100% { transform: translateX(-180px); opacity: 0; }
+        12%, 82% { opacity: .7; }
+        90% { transform: translateX(1180px); opacity: 0; }
+      }
+      @keyframes chipGlow {
+        0%, 100% { opacity: .72; }
+        50% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .status-dot, .terminal, .cursor, .scan-line, .chip { animation: none; }
+      }
+    </style>
     <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07111F"/>
       <stop offset="0.55" stop-color="#0B1D31"/>
@@ -34,7 +67,7 @@
 
   <g transform="translate(72 64)">
     <rect width="194" height="34" rx="17" fill="#10273B" stroke="#2DD4BF" stroke-opacity=".45"/>
-    <circle cx="19" cy="17" r="5" fill="#A3E635"/>
+    <circle class="status-dot" cx="19" cy="17" r="5" fill="#A3E635"/>
     <text x="34" y="22" fill="#CCFBF1" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600">AVAILABLE TO BUILD</text>
 
     <text x="0" y="105" fill="#E2E8F0" font-size="25" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="500" letter-spacing="3">HELLO, I'M</text>
@@ -42,16 +75,19 @@
     <text x="2" y="219" fill="#94A3B8" font-size="23" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Full Stack Developer  /  Bangladesh</text>
 
     <g transform="translate(0 260)">
-      <rect width="158" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
-      <text x="79" y="27" text-anchor="middle" fill="#67E8F9" font-size="15" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">React + Next.js</text>
-      <rect x="170" width="156" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
-      <text x="248" y="27" text-anchor="middle" fill="#5EEAD4" font-size="15" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">Node.js + .NET</text>
-      <rect x="338" width="154" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
-      <text x="415" y="27" text-anchor="middle" fill="#BEF264" font-size="15" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">DevOps curious</text>
+      <rect class="chip" width="158" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
+      <path d="M20 17L14 22L20 27M32 17L38 22L32 27" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="99" y="27" text-anchor="middle" fill="#67E8F9" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">React + Next.js</text>
+      <rect class="chip chip-two" x="170" width="156" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
+      <path d="M188 16H202V27H188V16ZM191 20H199M191 24H197" stroke="#5EEAD4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="267" y="27" text-anchor="middle" fill="#5EEAD4" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">Node.js + .NET</text>
+      <rect class="chip chip-three" x="338" width="154" height="43" rx="12" fill="#0F2538" stroke="#334155"/>
+      <path d="M357 15V28M353 19L357 15L361 19M350 28H364" stroke="#BEF264" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="435" y="27" text-anchor="middle" fill="#BEF264" font-size="13" font-family="ui-monospace, SFMono-Regular, monospace" font-weight="600">DevOps curious</text>
     </g>
   </g>
 
-  <g transform="translate(810 74)" filter="url(#shadow)">
+  <g class="terminal" filter="url(#shadow)">
     <rect width="316" height="290" rx="22" fill="#091522" stroke="#24415A"/>
     <rect width="316" height="47" rx="22" fill="#102437"/>
     <path d="M0 47H316" stroke="#24415A"/>
@@ -82,5 +118,7 @@
     <rect x="24" y="239" width="268" height="29" rx="8" fill="#0F2538"/>
     <text x="38" y="258" fill="#A3E635" font-size="12" font-family="ui-monospace, SFMono-Regular, monospace">OK</text>
     <text x="57" y="258" fill="#94A3B8" font-size="12" font-family="ui-monospace, SFMono-Regular, monospace">build completed successfully</text>
+    <rect class="cursor" x="277" y="248" width="2" height="11" fill="#A3E635"/>
   </g>
+  <rect class="scan-line" x="0" y="424" width="150" height="2" rx="1" fill="url(#accent)"/>
 </svg>

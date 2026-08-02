@@ -118,9 +118,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khanatik1176&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=khanatik1176&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=khanatik1176&theme=tokyonight" alt="GitHub Streak Stats" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs?username=khanatik1176&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=khanatik1176&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=khanatik1176&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
 </p>
 
 <br/>

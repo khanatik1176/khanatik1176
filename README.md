@@ -8,14 +8,23 @@
   <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=7aa2f7&style=for-the-badge" alt="Profile views"/>
 </p>
 
-<img align="right" alt="Coding" width="360" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>
+<img align="right" alt="Coding" width="340" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>
 
-### About me
+### 💫 About Me
 
-- 🌱 I’m currently learning **DevOps tools and practices**
-- 💬 Ask me about **Full Stack Development**
-- 📫 How to reach me **[khanatik1176@gmail.com](mailto:khanatik1176@gmail.com)**
-- ⚡ Fun fact **I am a gamer**
+<a href="https://github.com/khanatik1176">
+  <img src="https://img.shields.io/badge/Currently_Learning-DevOps_tools_%26_practices-9ECE6A?style=for-the-badge&labelColor=1A1B27&logo=docker&logoColor=white" alt="Currently learning DevOps"/>
+</a>
+<br/>
+<a href="https://github.com/khanatik1176?tab=repositories">
+  <img src="https://img.shields.io/badge/Ask_Me_About-Full_Stack_Development-7AA2F7?style=for-the-badge&labelColor=1A1B27&logo=react&logoColor=white" alt="Ask me about Full Stack Development"/>
+</a>
+<br/>
+<a href="mailto:khanatik1176@gmail.com">
+  <img src="https://img.shields.io/badge/Reach_Me-khanatik1176%40gmail.com-BB9AF7?style=for-the-badge&labelColor=1A1B27&logo=gmail&logoColor=white" alt="Email khanatik1176@gmail.com"/>
+</a>
+<br/>
+<img src="https://img.shields.io/badge/Fun_Fact-I_am_a_gamer-E0AF68?style=for-the-badge&labelColor=1A1B27&logo=steam&logoColor=white" alt="Fun fact: I am a gamer"/>
 
 <br clear="both"/>
 

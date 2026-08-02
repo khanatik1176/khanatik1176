@@ -9,11 +9,15 @@
 </p>
 
 <img align="right" alt="Coding" width="360" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>
-<img src="./assets/about-intro.svg" width="55%" alt="About Khan Atik Faisal"/>
+
+### About me
+
+- 🌱 I’m currently learning **DevOps tools and practices**
+- 💬 Ask me about **Full Stack Development**
+- 📫 How to reach me **[khanatik1176@gmail.com](mailto:khanatik1176@gmail.com)**
+- ⚡ Fun fact **I am a gamer**
 
 <br clear="both"/>
-
-<br/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

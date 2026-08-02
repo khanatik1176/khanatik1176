@@ -23,8 +23,9 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/snake/github-contribution-grid-snake.svg?color_snake=#f0b429&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            assets/snake/github-contribution-grid-snake-dark.svg?color_snake=#3dd6c3&color_dots=#0d1117,#0e4429,#006d32,#26a641,#39d353
+            assets/snake/github-contribution-grid-snake.svg?color_snake=#A67C2D&color_dots=#ebedf0,#9bb4d0,#5b84b0,#1E4A7A,#123258
+            assets/snake/github-contribution-grid-snake-dark.svg?color_snake=#C9A227&color_dots=#0d1117,#1a2740,#24486e,#3d6fa3,#5b8fc7
+
 
       # Committing to main lets the README load the snake as a repository-relative
       # asset, which GitHub serves same-origin like every other image on the profile.

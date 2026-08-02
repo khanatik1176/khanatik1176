@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="./assets/about-system.svg" width="100%" alt="Building beyond the interface"/>
+<img src="./assets/about-system.svg" width="100%" alt="About — building the whole product loop"/>
 
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="100%" alt="Technology stack"/>
+<img src="./assets/tech-stack.svg" width="100%" alt="Tools I work with"/>
 
 </div>
 
@@ -34,13 +34,13 @@
 
 <div align="center">
 
-<img src="./assets/current-signal.svg" width="100%" alt="Current focus and learning signal"/>
+<img src="./assets/current-signal.svg" width="100%" alt="Current focus"/>
 
 </div>
 
 <div align="center">
 
-<img src="./assets/snake-stage.svg" width="100%" alt="Live contribution engine"/>
+<img src="./assets/snake-stage.svg" width="100%" alt="Contribution trail"/>
 
 <br/>
 
@@ -54,4 +54,4 @@
 
 <br/>
 
-<p align="center"><code>design thoughtfully · build reliably · keep shipping</code></p>
+<p align="center"><em>design thoughtfully · build reliably · keep shipping</em></p>

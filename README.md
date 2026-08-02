@@ -30,17 +30,17 @@
 
 <h3 align="center">🔗 Connect with me</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/khan-atik-faisal" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27" alt="LinkedIn"/>
+  <a href="https://linkedin.com/in/khan-atik-faisal" target="_blank" title="LinkedIn">
+    <img src="./assets/icons/social/linkedin.svg" alt="LinkedIn" width="56" height="56"/>
   </a>
-  <a href="https://fb.com/khan.atik.faisal" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1A1B27" alt="Facebook"/>
+  <a href="https://fb.com/khan.atik.faisal" target="_blank" title="Facebook">
+    <img src="./assets/icons/social/facebook.svg" alt="Facebook" width="56" height="56"/>
   </a>
-  <a href="https://www.leetcode.com/khan_atik_faisal" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=1A1B27" alt="LeetCode"/>
+  <a href="https://www.leetcode.com/khan_atik_faisal" target="_blank" title="LeetCode">
+    <img src="./assets/icons/social/leetcode.svg" alt="LeetCode" width="56" height="56"/>
   </a>
-  <a href="https://www.codechef.com/users/sharp_vista_30" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1A1B27" alt="CodeChef"/>
+  <a href="https://www.codechef.com/users/sharp_vista_30" target="_blank" title="CodeChef">
+    <img src="./assets/icons/social/codechef.svg" alt="CodeChef" width="56" height="56"/>
   </a>
 </p>
 
@@ -48,22 +48,42 @@
 
 <h3 align="center">💻 Languages</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,cs,cpp,html,css&theme=dark" alt="Languages"/>
+  <a href="https://www.python.org" title="Python"><img src="./assets/icons/skills/python.svg" alt="Python" width="56" height="56"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="./assets/icons/skills/javascript.svg" alt="JavaScript" width="56" height="56"/></a>
+  <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="./assets/icons/skills/typescript.svg" alt="TypeScript" width="56" height="56"/></a>
+  <a href="https://learn.microsoft.com/en-US/dotnet/csharp/" title="C#"><img src="./assets/icons/skills/csharp.svg" alt="C#" width="56" height="56"/></a>
+  <a href="https://isocpp.org/" title="C++"><img src="./assets/icons/skills/cplusplus.svg" alt="C++" width="56" height="56"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML5"><img src="./assets/icons/skills/html5.svg" alt="HTML5" width="56" height="56"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3"><img src="./assets/icons/skills/css3.svg" alt="CSS3" width="56" height="56"/></a>
 </p>
 
 <br/>
 
 <h3 align="center">🛠️ Tools & Frameworks</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=django,fastapi,nodejs,react,nextjs,express,nestjs,dotnet,docker,tailwind,mongodb,mysql,postgres,git,postman,materialui,jest&perline=9&theme=dark" alt="Tools and Frameworks"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=1A1B27" alt="React Native"/>
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white&labelColor=1A1B27" alt="Expo"/>
-  <img src="https://img.shields.io/badge/MS_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white&labelColor=1A1B27" alt="MS SQL Server"/>
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white&labelColor=1A1B27" alt="shadcn/ui"/>
-  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white&labelColor=1A1B27" alt="Ant Design"/>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=1A1B27" alt="Playwright"/>
+  <a href="https://www.djangoproject.com/" title="Django"><img src="./assets/icons/skills/django.svg" alt="Django" width="56" height="56"/></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="./assets/icons/skills/fastapi.svg" alt="FastAPI" width="56" height="56"/></a>
+  <a href="https://nodejs.org/" title="Node.js"><img src="./assets/icons/skills/nodejs.svg" alt="Node.js" width="56" height="56"/></a>
+  <a href="https://react.dev/" title="React"><img src="./assets/icons/skills/react.svg" alt="React" width="56" height="56"/></a>
+  <a href="https://reactnative.dev/" title="React Native"><img src="./assets/icons/skills/reactnative.svg" alt="React Native" width="56" height="56"/></a>
+  <a href="https://expo.dev/" title="Expo"><img src="./assets/icons/skills/expo.svg" alt="Expo" width="56" height="56"/></a>
+  <a href="https://nextjs.org/" title="Next.js"><img src="./assets/icons/skills/nextjs.svg" alt="Next.js" width="56" height="56"/></a>
+  <a href="https://expressjs.com/" title="Express.js"><img src="./assets/icons/skills/express.svg" alt="Express.js" width="56" height="56"/></a>
+  <a href="https://nestjs.com/" title="NestJS"><img src="./assets/icons/skills/nestjs.svg" alt="NestJS" width="56" height="56"/></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/" title=".NET"><img src="./assets/icons/skills/dotnet.svg" alt=".NET" width="56" height="56"/></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="./assets/icons/skills/docker.svg" alt="Docker" width="56" height="56"/></a>
+  <a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="./assets/icons/skills/tailwind.svg" alt="Tailwind CSS" width="56" height="56"/></a>
+  <a href="https://www.mongodb.com/" title="MongoDB"><img src="./assets/icons/skills/mongodb.svg" alt="MongoDB" width="56" height="56"/></a>
+  <a href="https://www.mysql.com/" title="MySQL"><img src="./assets/icons/skills/mysql.svg" alt="MySQL" width="56" height="56"/></a>
+  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server"><img src="./assets/icons/skills/mssql.svg" alt="MS SQL Server" width="56" height="56"/></a>
+  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/icons/skills/postgresql.svg" alt="PostgreSQL" width="56" height="56"/></a>
+  <a href="https://git-scm.com/" title="Git"><img src="./assets/icons/skills/git.svg" alt="Git" width="56" height="56"/></a>
+  <a href="https://www.postman.com/" title="Postman"><img src="./assets/icons/skills/postman.svg" alt="Postman" width="56" height="56"/></a>
+  <a href="https://ui.shadcn.com/" title="shadcn/ui"><img src="./assets/icons/skills/shadcn.svg" alt="shadcn/ui" width="56" height="56"/></a>
+  <a href="https://ant.design/" title="Ant Design"><img src="./assets/icons/skills/antd.svg" alt="Ant Design" width="56" height="56"/></a>
+  <a href="https://mui.com/" title="Material UI"><img src="./assets/icons/skills/mui.svg" alt="Material UI" width="56" height="56"/></a>
+  <a href="https://jestjs.io/" title="Jest"><img src="./assets/icons/skills/jest.svg" alt="Jest" width="56" height="56"/></a>
+  <a href="https://playwright.dev/" title="Playwright"><img src="./assets/icons/skills/playwright.svg" alt="Playwright" width="56" height="56"/></a>
 </p>
 
 <p align="center">

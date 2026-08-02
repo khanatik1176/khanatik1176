@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="expo">
+  <defs>
+    <linearGradient id="bg-expo" x1="0" y1="0" x2="72" y2="72">
+      <stop offset="0%" stop-color="#1a1b27"/>
+      <stop offset="100%" stop-color="#24283b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft accent glow -->
+  <rect x="3" y="3" width="66" height="66" rx="18" fill="#BB9AF7" opacity="0.28">
+    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="2.8s" begin="0.96s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- floating card -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" begin="0.96s" repeatCount="indefinite"/>
+    <rect x="6" y="6" width="60" height="60" rx="16" fill="url(#bg-expo)" stroke="#BB9AF7" stroke-opacity="0.55" stroke-width="1.4"/>
+    <rect x="6" y="6" width="60" height="4" rx="2" fill="#BB9AF7">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" begin="0.96s" repeatCount="indefinite"/>
+    </rect>
+    <g opacity="0.95">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" begin="0.96s" repeatCount="indefinite"/>
+      <text x="36" y="42" text-anchor="middle" fill="#BB9AF7" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5">EX</text>
+    </g>
+  </g>
+</svg>

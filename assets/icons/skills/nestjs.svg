@@ -1,29 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="nestjs">
-  <defs>
-    <linearGradient id="bg-nestjs" x1="0" y1="0" x2="72" y2="72">
-      <stop offset="0%" stop-color="#1a1b27"/>
-      <stop offset="100%" stop-color="#24283b"/>
-    </linearGradient>
-  </defs>
-
-  <!-- soft accent glow -->
-  <rect x="3" y="3" width="66" height="66" rx="18" fill="#E0234E" opacity="0.28">
-    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="2.8s" begin="1.2s" repeatCount="indefinite"/>
+  <!-- glow -->
+  <rect x="2" y="2" width="68" height="68" rx="18" fill="#E0234E" opacity="0.22">
+    <animate attributeName="opacity" values="0.14;0.34;0.14" dur="2.8s" begin="1.2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- floating card -->
+  <!-- card uses solid fills only for GitHub CSP compatibility -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
-    <rect x="6" y="6" width="60" height="60" rx="16" fill="url(#bg-nestjs)" stroke="#E0234E" stroke-opacity="0.55" stroke-width="1.4"/>
-    <rect x="6" y="6" width="60" height="4" rx="2" fill="#E0234E">
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
+    <rect x="6" y="6" width="60" height="60" rx="16" fill="#1a1b27" stroke="#E0234E" stroke-opacity="0.7" stroke-width="1.6"/>
+    <rect x="6" y="6" width="60" height="5" rx="2.5" fill="#E0234E">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
     </rect>
-    <g opacity="0.95">
-      <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" begin="1.2s" repeatCount="indefinite"/>
-      <g fill="#F7768E">
-      <path d="M36 16c-8.5 4.2-14 11.8-14 20.4 0 9.2 6.4 16.4 14 19.6 7.6-3.2 14-10.4 14-19.6C50 27.8 44.5 20.2 36 16Zm0 6.2c5.8 3.1 9.4 8.4 9.4 14.2S41.8 47.5 36 50.6c-5.8-3.1-9.4-8.4-9.4-14.2S30.2 25.3 36 22.2Z"/>
-      <path d="M36 26.5c-3.8 2-6.2 5.4-6.2 9.2S32.2 43 36 45c3.8-2 6.2-5.4 6.2-9.3S39.8 28.5 36 26.5Z"/>
-    </g>
+    <g fill="#F7768E">
+      <path d="M36 17c-8 4-13.2 11-13.2 19.2 0 8.6 6 15.4 13.2 18.4 7.2-3 13.2-9.8 13.2-18.4C49.2 28 44 21 36 17Zm0 6.5c5.2 2.8 8.5 7.6 8.5 12.8S41.2 45.3 36 48.1c-5.2-2.8-8.5-7.6-8.5-12.8S30.8 26.3 36 23.5Z"/>
+      <path d="M36 28c-3.4 1.8-5.5 4.8-5.5 8.2S32.6 42.6 36 44.4c3.4-1.8 5.5-4.8 5.5-8.2S39.4 29.8 36 28Z"/>
     </g>
   </g>
 </svg>

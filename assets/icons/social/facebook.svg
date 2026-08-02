@@ -1,26 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="facebook">
-  <defs>
-    <linearGradient id="bg-facebook" x1="0" y1="0" x2="72" y2="72">
-      <stop offset="0%" stop-color="#1a1b27"/>
-      <stop offset="100%" stop-color="#24283b"/>
-    </linearGradient>
-  </defs>
-
-  <!-- soft accent glow -->
-  <rect x="3" y="3" width="66" height="66" rx="18" fill="#1877F2" opacity="0.28">
-    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="2.8s" begin="0.18s" repeatCount="indefinite"/>
+  <!-- glow -->
+  <rect x="2" y="2" width="68" height="68" rx="18" fill="#1877F2" opacity="0.22">
+    <animate attributeName="opacity" values="0.14;0.34;0.14" dur="2.8s" begin="0.18s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- floating card -->
+  <!-- card uses solid fills only for GitHub CSP compatibility -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" begin="0.18s" repeatCount="indefinite"/>
-    <rect x="6" y="6" width="60" height="60" rx="16" fill="url(#bg-facebook)" stroke="#1877F2" stroke-opacity="0.55" stroke-width="1.4"/>
-    <rect x="6" y="6" width="60" height="4" rx="2" fill="#1877F2">
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" begin="0.18s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="3.2s" begin="0.18s" repeatCount="indefinite"/>
+    <rect x="6" y="6" width="60" height="60" rx="16" fill="#1a1b27" stroke="#1877F2" stroke-opacity="0.7" stroke-width="1.6"/>
+    <rect x="6" y="6" width="60" height="5" rx="2.5" fill="#1877F2">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.4s" begin="0.18s" repeatCount="indefinite"/>
     </rect>
-    <g opacity="0.95">
-      <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" begin="0.18s" repeatCount="indefinite"/>
-      <path fill="#7AA2F7" d="M38 48V35h4.8l.9-5.5H38v-3.5c0-1.6.4-2.7 2.8-2.7h3V18.2c-.5-.1-2.3-.3-4.4-.3-4.4 0-7.4 2.7-7.4 7.6v4.5h-5V35h5V48h5.6Z"/>
-    </g>
+    <path fill="#7AA2F7" d="M38 48V35h4.8l.9-5.5H38v-3.5c0-1.6.4-2.7 2.8-2.7h3V18.2c-.5-.1-2.3-.3-4.4-.3-4.4 0-7.4 2.7-7.4 7.6v4.5h-5V35h5V48h5.6Z"/>
   </g>
 </svg>

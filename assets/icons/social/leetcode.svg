@@ -1,30 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="leetcode">
-  <defs>
-    <linearGradient id="bg-leetcode" x1="0" y1="0" x2="72" y2="72">
-      <stop offset="0%" stop-color="#1a1b27"/>
-      <stop offset="100%" stop-color="#24283b"/>
-    </linearGradient>
-  </defs>
-
-  <!-- soft accent glow -->
-  <rect x="3" y="3" width="66" height="66" rx="18" fill="#FFA116" opacity="0.28">
-    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="2.8s" begin="0.36s" repeatCount="indefinite"/>
+  <!-- glow -->
+  <rect x="2" y="2" width="68" height="68" rx="18" fill="#FFA116" opacity="0.22">
+    <animate attributeName="opacity" values="0.14;0.34;0.14" dur="2.8s" begin="0.36s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- floating card -->
+  <!-- card uses solid fills only for GitHub CSP compatibility -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" begin="0.36s" repeatCount="indefinite"/>
-    <rect x="6" y="6" width="60" height="60" rx="16" fill="url(#bg-leetcode)" stroke="#FFA116" stroke-opacity="0.55" stroke-width="1.4"/>
-    <rect x="6" y="6" width="60" height="4" rx="2" fill="#FFA116">
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" begin="0.36s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="3.2s" begin="0.36s" repeatCount="indefinite"/>
+    <rect x="6" y="6" width="60" height="60" rx="16" fill="#1a1b27" stroke="#FFA116" stroke-opacity="0.7" stroke-width="1.6"/>
+    <rect x="6" y="6" width="60" height="5" rx="2.5" fill="#FFA116">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.4s" begin="0.36s" repeatCount="indefinite"/>
     </rect>
-    <g opacity="0.95">
-      <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" begin="0.36s" repeatCount="indefinite"/>
-      <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
       <path d="M38 18 24 31c-4.8 4.8-4.8 11.8 0 16.6s11.8 4.8 16.6 0l3.8-3.8" stroke="#E0AF68"/>
       <path d="M27 39h18" stroke="#FFA116"/>
       <path d="M28 25l6.5-6.5L41 25" stroke="#FFA116"/>
-    </g>
     </g>
   </g>
 </svg>

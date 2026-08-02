@@ -30,60 +30,52 @@
 
 <h3 align="center">🔗 Connect with me</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/khan-atik-faisal" target="_blank" title="LinkedIn">
-    <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/social/linkedin.svg?v=2" alt="LinkedIn" width="56" height="56"/>
-  </a>
-  <a href="https://fb.com/khan.atik.faisal" target="_blank" title="Facebook">
-    <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/social/facebook.svg?v=2" alt="Facebook" width="56" height="56"/>
-  </a>
-  <a href="https://www.leetcode.com/khan_atik_faisal" target="_blank" title="LeetCode">
-    <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/social/leetcode.svg?v=2" alt="LeetCode" width="56" height="56"/>
-  </a>
-  <a href="https://www.codechef.com/users/sharp_vista_30" target="_blank" title="CodeChef">
-    <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/social/codechef.svg?v=2" alt="CodeChef" width="56" height="56"/>
-  </a>
+  <a href="https://linkedin.com/in/khan-atik-faisal" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://fb.com/khan.atik.faisal" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+  <a href="https://www.leetcode.com/khan_atik_faisal" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <a href="https://www.codechef.com/users/sharp_vista_30" target="_blank"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
 </p>
 
 <br/>
 
 <h3 align="center">💻 Languages</h3>
 <p align="center">
-  <a href="https://www.python.org" title="Python"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/python.svg?v=2" alt="Python" width="56" height="56"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/javascript.svg?v=2" alt="JavaScript" width="56" height="56"/></a>
-  <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/typescript.svg?v=2" alt="TypeScript" width="56" height="56"/></a>
-  <a href="https://learn.microsoft.com/en-US/dotnet/csharp/" title="C#"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/csharp.svg?v=2" alt="C#" width="56" height="56"/></a>
-  <a href="https://isocpp.org/" title="C++"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/cplusplus.svg?v=2" alt="C++" width="56" height="56"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML5"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/html5.svg?v=2" alt="HTML5" width="56" height="56"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/css3.svg?v=2" alt="CSS3" width="56" height="56"/></a>
+  <a href="https://www.python.org" title="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript"/></a>
+  <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript"/></a>
+  <a href="https://learn.microsoft.com/en-US/dotnet/csharp/" title="C#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#"/></a>
+  <a href="https://isocpp.org/" title="C++"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3"/></a>
 </p>
 
 <br/>
 
 <h3 align="center">🛠️ Tools & Frameworks</h3>
 <p align="center">
-  <a href="https://www.djangoproject.com/" title="Django"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/django.svg?v=2" alt="Django" width="56" height="56"/></a>
-  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/fastapi.svg?v=2" alt="FastAPI" width="56" height="56"/></a>
-  <a href="https://nodejs.org/" title="Node.js"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/nodejs.svg?v=2" alt="Node.js" width="56" height="56"/></a>
-  <a href="https://react.dev/" title="React"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/react.svg?v=2" alt="React" width="56" height="56"/></a>
-  <a href="https://reactnative.dev/" title="React Native"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/reactnative.svg?v=2" alt="React Native" width="56" height="56"/></a>
-  <a href="https://expo.dev/" title="Expo"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/expo.svg?v=2" alt="Expo" width="56" height="56"/></a>
-  <a href="https://nextjs.org/" title="Next.js"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/nextjs.svg?v=2" alt="Next.js" width="56" height="56"/></a>
-  <a href="https://expressjs.com/" title="Express.js"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/express.svg?v=2" alt="Express.js" width="56" height="56"/></a>
-  <a href="https://nestjs.com/" title="NestJS"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/nestjs.svg?v=2" alt="NestJS" width="56" height="56"/></a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/" title=".NET"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/dotnet.svg?v=2" alt=".NET" width="56" height="56"/></a>
-  <a href="https://www.docker.com/" title="Docker"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/docker.svg?v=2" alt="Docker" width="56" height="56"/></a>
-  <a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/tailwind.svg?v=2" alt="Tailwind CSS" width="56" height="56"/></a>
-  <a href="https://www.mongodb.com/" title="MongoDB"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/mongodb.svg?v=2" alt="MongoDB" width="56" height="56"/></a>
-  <a href="https://www.mysql.com/" title="MySQL"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/mysql.svg?v=2" alt="MySQL" width="56" height="56"/></a>
-  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/mssql.svg?v=2" alt="MS SQL Server" width="56" height="56"/></a>
-  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/postgresql.svg?v=2" alt="PostgreSQL" width="56" height="56"/></a>
-  <a href="https://git-scm.com/" title="Git"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/git.svg?v=2" alt="Git" width="56" height="56"/></a>
-  <a href="https://www.postman.com/" title="Postman"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/postman.svg?v=2" alt="Postman" width="56" height="56"/></a>
-  <a href="https://ui.shadcn.com/" title="shadcn/ui"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/shadcn.svg?v=2" alt="shadcn/ui" width="56" height="56"/></a>
-  <a href="https://ant.design/" title="Ant Design"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/antd.svg?v=2" alt="Ant Design" width="56" height="56"/></a>
-  <a href="https://mui.com/" title="Material UI"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/mui.svg?v=2" alt="Material UI" width="56" height="56"/></a>
-  <a href="https://jestjs.io/" title="Jest"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/jest.svg?v=2" alt="Jest" width="56" height="56"/></a>
-  <a href="https://playwright.dev/" title="Playwright"><img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/icons/skills/playwright.svg?v=2" alt="Playwright" width="56" height="56"/></a>
+  <a href="https://www.djangoproject.com/" title="Django"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="48" height="48" alt="Django"/></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="48" height="48" alt="FastAPI"/></a>
+  <a href="https://nodejs.org/" title="Node.js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js"/></a>
+  <a href="https://react.dev/" title="React"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React"/></a>
+  <a href="https://reactnative.dev/" title="React Native"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" width="48" height="48" alt="React Native"/></a>
+  <a href="https://expo.dev/" title="Expo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original-wordmark.svg" width="48" height="48" alt="Expo"/></a>
+  <a href="https://nextjs.org/" title="Next.js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js"/></a>
+  <a href="https://expressjs.com/" title="Express.js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="48" height="48" alt="Express.js"/></a>
+  <a href="https://nestjs.com/" title="NestJS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="48" height="48" alt="NestJS"/></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/" title=".NET"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" width="48" height="48" alt=".NET"/></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker"/></a>
+  <a href="https://tailwindcss.com/" title="Tailwind CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind CSS"/></a>
+  <a href="https://www.mongodb.com/" title="MongoDB"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB"/></a>
+  <a href="https://www.mysql.com/" title="MySQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL"/></a>
+  <a href="https://www.microsoft.com/en-us/sql-server" title="MS SQL Server"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="48" height="48" alt="MS SQL Server"/></a>
+  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/></a>
+  <a href="https://git-scm.com/" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git"/></a>
+  <a href="https://www.postman.com/" title="Postman"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="48" height="48" alt="Postman"/></a>
+  <a href="https://ui.shadcn.com/" title="shadcn/ui"><img src="https://cdn.simpleicons.org/shadcnui/FFFFFF" width="48" height="48" alt="shadcn/ui"/></a>
+  <a href="https://ant.design/" title="Ant Design"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg" width="48" height="48" alt="Ant Design"/></a>
+  <a href="https://mui.com/" title="Material UI"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" width="48" height="48" alt="Material UI"/></a>
+  <a href="https://jestjs.io/" title="Jest"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" width="48" height="48" alt="Jest"/></a>
+  <a href="https://playwright.dev/" title="Playwright"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="48" height="48" alt="Playwright"/></a>
 </p>
 
 <p align="center">

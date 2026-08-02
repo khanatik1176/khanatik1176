@@ -1,0 +1,28 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .fade { animation: fade .8s ease both; }
+      .dash { stroke-dasharray: 8 10; animation: move 1.8s linear infinite; }
+      @keyframes fade {
+        from { opacity: 0; transform: translateY(6px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes move { to { stroke-dashoffset: -36; } }
+      @media (prefers-reduced-motion: reduce) {
+        .fade, .dash { animation: none; }
+        .fade { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="150" fill="#141414"/>
+  <rect x="0" y="0" width="8" height="150" fill="#C1121F"/>
+
+  <g class="fade">
+    <text x="48" y="58" fill="#C1121F" font-size="12" font-family="Trebuchet MS, sans-serif" letter-spacing="3">04 / ACTIVITY</text>
+    <text x="48" y="96" fill="#F7F7F5" font-size="28" font-family="Georgia, Times New Roman, serif" font-weight="700">Contribution trail</text>
+    <text x="420" y="96" fill="#8A8A8A" font-size="15" font-family="Trebuchet MS, sans-serif">Auto-refreshed every 12 hours</text>
+  </g>
+
+  <path class="dash" d="M820 75H1140" stroke="#C1121F" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="1140" cy="75" r="5" fill="#C1121F"/>
+</svg>

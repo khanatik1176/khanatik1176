@@ -1,0 +1,39 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .fade { animation: fadeUp 1s ease both; }
+      .late { animation: fadeUp 1s ease .2s both; }
+      .mark { animation: markIn 1.2s ease both; }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(14px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes markIn {
+        from { opacity: 0; transform: translate(-12px, 0); }
+        to { opacity: .12; transform: translate(0, 0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .fade, .late, .mark { animation: none; }
+        .fade, .late { opacity: 1; }
+        .mark { opacity: .12; }
+      }
+    </style>
+    <linearGradient id="night" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141414"/>
+      <stop offset="1" stop-color="#1E1E1E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#night)"/>
+  <text class="mark" x="40" y="250" fill="#FFFFFF" font-size="280" font-family="Georgia, Times New Roman, serif" font-weight="700"></text>
+
+  <g class="fade" transform="translate(120 100)">
+    <text x="0" y="0" fill="#C1121F" font-size="13" font-family="Trebuchet MS, sans-serif" letter-spacing="4">MANIFESTO</text>
+    <text x="0" y="70" fill="#F7F7F5" font-size="48" font-family="Georgia, Times New Roman, serif" font-weight="700">I build the whole product loop </text>
+    <text x="0" y="128" fill="#F7F7F5" font-size="48" font-family="Georgia, Times New Roman, serif" font-weight="700">interface, API, data, delivery.</text>
+  </g>
+  <g class="late">
+    <text x="120" y="290" fill="#A0A0A0" font-size="18" font-family="Trebuchet MS, sans-serif">Clean systems. Thoughtful craft. Software that keeps shipping.</text>
+    <rect x="1120" y="40" width="40" height="4" fill="#C1121F"/>
+  </g>
+</svg>

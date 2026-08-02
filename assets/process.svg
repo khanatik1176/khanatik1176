@@ -1,0 +1,47 @@
+<svg width="580" height="440" viewBox="0 0 580 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .row { animation: rise .7s ease both; }
+      .r2 { animation-delay: .1s; }
+      .r3 { animation-delay: .2s; }
+      .r4 { animation-delay: .3s; }
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .row { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="580" height="440" fill="#F7F7F5"/>
+  <rect x="0" y="0" width="580" height="6" fill="#141414"/>
+
+  <text x="36" y="52" fill="#C1121F" font-size="12" font-family="Trebuchet MS, sans-serif" letter-spacing="3">01 / PROCESS</text>
+  <text x="36" y="92" fill="#141414" font-size="30" font-family="Georgia, Times New Roman, serif" font-weight="700">How I work</text>
+  <text x="36" y="124" fill="#666666" font-size="14" font-family="Trebuchet MS, sans-serif">From first sketch to production.</text>
+
+  <g class="row" transform="translate(36 168)">
+    <text x="0" y="0" fill="#C1121F" font-size="36" font-family="Georgia, Times New Roman, serif" font-weight="700">01</text>
+    <text x="78" y="-8" fill="#141414" font-size="20" font-family="Georgia, Times New Roman, serif" font-weight="700">Idea</text>
+    <text x="78" y="18" fill="#666666" font-size="14" font-family="Trebuchet MS, sans-serif">Frame the problem and the outcome</text>
+    <path d="M0 40H508" stroke="#E0E0DC"/>
+  </g>
+  <g class="row r2" transform="translate(36 236)">
+    <text x="0" y="0" fill="#C1121F" font-size="36" font-family="Georgia, Times New Roman, serif" font-weight="700">02</text>
+    <text x="78" y="-8" fill="#141414" font-size="20" font-family="Georgia, Times New Roman, serif" font-weight="700">Build</text>
+    <text x="78" y="18" fill="#666666" font-size="14" font-family="Trebuchet MS, sans-serif">Shape the interface, API, and data</text>
+    <path d="M0 40H508" stroke="#E0E0DC"/>
+  </g>
+  <g class="row r3" transform="translate(36 304)">
+    <text x="0" y="0" fill="#C1121F" font-size="36" font-family="Georgia, Times New Roman, serif" font-weight="700">03</text>
+    <text x="78" y="-8" fill="#141414" font-size="20" font-family="Georgia, Times New Roman, serif" font-weight="700">Ship</text>
+    <text x="78" y="18" fill="#666666" font-size="14" font-family="Trebuchet MS, sans-serif">Deliver systems people can rely on</text>
+    <path d="M0 40H508" stroke="#E0E0DC"/>
+  </g>
+  <g class="row r4" transform="translate(36 372)">
+    <text x="0" y="0" fill="#C1121F" font-size="36" font-family="Georgia, Times New Roman, serif" font-weight="700">04</text>
+    <text x="78" y="-8" fill="#141414" font-size="20" font-family="Georgia, Times New Roman, serif" font-weight="700">Improve</text>
+    <text x="78" y="18" fill="#666666" font-size="14" font-family="Trebuchet MS, sans-serif">Measure, learn, and refine the loop</text>
+  </g>
+</svg>

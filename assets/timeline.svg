@@ -1,0 +1,47 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .node { animation: pop .6s ease both; }
+      .n2 { animation-delay: .12s; }
+      .n3 { animation-delay: .24s; }
+      .n4 { animation-delay: .36s; }
+      .line { stroke-dasharray: 1100; stroke-dashoffset: 1100; animation: draw 1.4s ease .2s forwards; }
+      @keyframes pop {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .node, .line { animation: none; }
+        .node { opacity: 1; }
+        .line { stroke-dashoffset: 0; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="240" fill="#F7F7F5"/>
+  <text x="48" y="48" fill="#C1121F" font-size="12" font-family="Trebuchet MS, sans-serif" letter-spacing="3">03 / FOCUS</text>
+  <text x="48" y="86" fill="#141414" font-size="28" font-family="Georgia, Times New Roman, serif" font-weight="700">What Im sharpening now</text>
+
+  <path class="line" d="M80 148H1120" stroke="#141414" stroke-width="2"/>
+
+  <g class="node" transform="translate(80 148)">
+    <circle cy="0" r="8" fill="#C1121F"/>
+    <text y="-28" fill="#141414" font-size="16" font-family="Georgia, Times New Roman, serif" font-weight="700">Products</text>
+    <text y="34" fill="#666666" font-size="13" font-family="Trebuchet MS, sans-serif">UI ’ API ’ data</text>
+  </g>
+  <g class="node n2" transform="translate(400 148)">
+    <circle cy="0" r="8" fill="#141414"/>
+    <text y="-28" fill="#141414" font-size="16" font-family="Georgia, Times New Roman, serif" font-weight="700">Architecture</text>
+    <text y="34" fill="#666666" font-size="13" font-family="Trebuchet MS, sans-serif">Readable systems</text>
+  </g>
+  <g class="node n3" transform="translate(720 148)">
+    <circle cy="0" r="8" fill="#141414"/>
+    <text y="-28" fill="#141414" font-size="16" font-family="Georgia, Times New Roman, serif" font-weight="700">DevOps</text>
+    <text y="34" fill="#666666" font-size="13" font-family="Trebuchet MS, sans-serif">CI · containers</text>
+  </g>
+  <g class="node n4" transform="translate(1040 148)">
+    <circle cy="0" r="8" fill="#141414"/>
+    <text y="-28" text-anchor="end" fill="#141414" font-size="16" font-family="Georgia, Times New Roman, serif" font-weight="700">Improve</text>
+    <text y="34" text-anchor="end" fill="#666666" font-size="13" font-family="Trebuchet MS, sans-serif">Build ’ learn</text>
+  </g>
+</svg>

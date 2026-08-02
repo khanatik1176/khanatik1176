@@ -1,15 +1,8 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .ring { animation: spin 12s linear infinite; transform-origin: 32px 32px; }
-      @keyframes spin { to { transform: rotate(360deg); } }
-      @media (prefers-reduced-motion: reduce) { .ring { animation: none; } }
-    </style>
-  </defs>
-  <rect x="2" y="2" width="60" height="60" fill="#12151A"/>
-  <circle class="ring" cx="32" cy="32" r="26" fill="none" stroke="#A67C2D" stroke-width="1" stroke-dasharray="18 146" stroke-opacity=".7"/>
-  <g fill="none" stroke="#F3F4F6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="16" y="21" width="32" height="23" rx="2"/>
-    <path d="M18 24l14 10 14-10"/>
+<svg width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+  <rect width="56" height="56" fill="#141414"/>
+  <rect x="0" y="0" width="56" height="3" fill="#C1121F"/>
+  <g fill="none" stroke="#F7F7F5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="13" y="18" width="30" height="21" rx="1.5"/>
+    <path d="M15 21l13 9 13-9"/>
   </g>
 </svg>

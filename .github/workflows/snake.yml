@@ -23,8 +23,9 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/snake/github-contribution-grid-snake.svg?color_snake=#A67C2D&color_dots=#ebedf0,#9bb4d0,#5b84b0,#1E4A7A,#123258
-            assets/snake/github-contribution-grid-snake-dark.svg?color_snake=#C9A227&color_dots=#0d1117,#1a2740,#24486e,#3d6fa3,#5b8fc7
+            assets/snake/github-contribution-grid-snake.svg?color_snake=#C1121F&color_dots=#ebedf0,#f0b4b8,#e06a72,#C1121F,#7a0b14
+            assets/snake/github-contribution-grid-snake-dark.svg?color_snake=#E63946&color_dots=#0d1117,#3a1518,#6b1e24,#a02830,#C1121F
+
 
 
       # Committing to main lets the README load the snake as a repository-relative

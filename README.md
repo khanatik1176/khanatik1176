@@ -3,9 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-Bangladesh-7AA2F7?style=for-the-badge&logo=github&logoColor=white" alt="Full Stack Developer from Bangladesh"/>
-  <img src="https://img.shields.io/badge/Exploring-DevOps-BB9AF7?style=for-the-badge&logo=docker&logoColor=white" alt="Exploring DevOps"/>
-  <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=7aa2f7&style=for-the-badge" alt="Profile views"/>
+  <img src="https://hits.sh/github.com/khanatik1176/khanatik1176.svg?style=for-the-badge&label=Profile%20views&color=7aa2f7&labelColor=1a1b27&logo=github" alt="Profile views"/>
 </p>
 
 <img align="right" alt="Coding" width="340" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>

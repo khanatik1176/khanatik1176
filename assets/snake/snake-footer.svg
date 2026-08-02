@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="40" viewBox="0 0 880 40" role="img" aria-label="Contribution legend">
+  <rect width="880" height="40" fill="#1a1b27"/>
+  <text x="280" y="25" fill="#565f89" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Less</text>
+  <rect x="318" y="14" width="14" height="14" rx="3" fill="#1a1b27" stroke="#3d59a1" stroke-width="1"/>
+  <rect x="338" y="14" width="14" height="14" rx="3" fill="#3d59a1"/>
+  <rect x="358" y="14" width="14" height="14" rx="3" fill="#7aa2f7"/>
+  <rect x="378" y="14" width="14" height="14" rx="3" fill="#7dcfff"/>
+  <rect x="398" y="14" width="14" height="14" rx="3" fill="#bb9af7"/>
+  <text x="422" y="25" fill="#565f89" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">More</text>
+  <circle cx="500" cy="21" r="6" fill="#f7768e"/>
+  <text x="514" y="25" fill="#a9b1d6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Snake</text>
+</svg>

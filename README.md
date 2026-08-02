@@ -93,10 +93,20 @@
 
 <br/>
 
+<h3 align="center">🐍 Contribution Snake</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/snake/snake-header.svg?v=1" width="880" alt="Contribution snake header"/>
+</p>
+
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/snake/github-contribution-grid-snake.svg"/>
-    <img src="./assets/snake/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/snake/github-contribution-grid-snake-dark.svg?v=tokyonight"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/snake/github-contribution-grid-snake.svg?v=tokyonight"/>
+    <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/snake/github-contribution-grid-snake-dark.svg?v=tokyonight" width="880" alt="Animated contribution snake"/>
   </picture>
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/snake/snake-footer.svg?v=1" width="880" alt="Contribution legend"/>
+</p>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="420" viewBox="0 0 840 420" role="img" aria-label="Work experience timeline">
+  <rect width="840" height="420" fill="#1a1b27"/>
+
+  <!-- vertical line -->
+  <line x1="56" y1="36" x2="56" y2="384" stroke="#7AA2F7" stroke-width="3" stroke-opacity="0.45">
+    <animate attributeName="stroke-opacity" values="0.3;0.55;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- 1: ACI Limited -->
+  <g>
+    <circle cx="56" cy="56" r="10" fill="#7AA2F7"/>
+    <circle cx="56" cy="56" r="4" fill="#1a1b27"/>
+    <text x="92" y="48" fill="#C0CAF5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Oct 2025 - Present</text>
+    <text x="92" y="74" fill="#7AA2F7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Software Engineer</text>
+    <text x="92" y="98" fill="#A9B1D6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">ACI Limited</text>
+  </g>
+
+  <!-- 2: Deep Mind Labs -->
+  <g>
+    <circle cx="56" cy="150" r="10" fill="#BB9AF7"/>
+    <circle cx="56" cy="150" r="4" fill="#1a1b27"/>
+    <text x="92" y="142" fill="#C0CAF5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Mar 2025 - Sep 2025</text>
+    <text x="92" y="168" fill="#BB9AF7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Frontend Developer</text>
+    <text x="92" y="192" fill="#A9B1D6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Deep Mind Labs</text>
+  </g>
+
+  <!-- 3: 6sense Technologies -->
+  <g>
+    <circle cx="56" cy="244" r="10" fill="#9ECE6A"/>
+    <circle cx="56" cy="244" r="4" fill="#1a1b27"/>
+    <text x="92" y="236" fill="#C0CAF5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Nov 2024 - Mar 2025</text>
+    <text x="92" y="262" fill="#9ECE6A" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Frontend Developer Intern</text>
+    <text x="92" y="286" fill="#A9B1D6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">6sense Technologies</text>
+  </g>
+
+  <!-- 4: Deepchain Labs -->
+  <g>
+    <circle cx="56" cy="338" r="10" fill="#E0AF68"/>
+    <circle cx="56" cy="338" r="4" fill="#1a1b27"/>
+    <text x="92" y="330" fill="#C0CAF5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Aug 2024 - Oct 2024</text>
+    <text x="92" y="356" fill="#E0AF68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Frontend Developer</text>
+    <text x="92" y="380" fill="#A9B1D6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Deepchain Labs</text>
+  </g>
+</svg>

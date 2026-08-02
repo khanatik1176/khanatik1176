@@ -28,6 +28,13 @@
 
 <br/>
 
+<h3 align="center">💼 Experience</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khanatik1176/khanatik1176/main/assets/experience-timeline.svg?v=1" alt="Experience timeline" width="720"/>
+</p>
+
+<br/>
+
 <h3 align="center">🔗 Connect with me</h3>
 <p align="center">
   <a href="https://linkedin.com/in/khan-atik-faisal" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>

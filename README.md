@@ -8,16 +8,10 @@
   <img src="https://komarev.com/ghpvc/?username=khanatik1176&label=Profile%20views&color=7aa2f7&style=for-the-badge" alt="Profile views"/>
 </p>
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
-      <img src="./assets/about-intro.svg" width="100%" alt="About Khan Atik Faisal"/>
-    </td>
-    <td width="42%" valign="middle" align="center">
-      <img alt="Coding" width="100%" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>
-    </td>
-  </tr>
-</table>
+<img align="right" alt="Coding" width="360" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"/>
+<img src="./assets/about-intro.svg" width="55%" alt="About Khan Atik Faisal"/>
+
+<br clear="both"/>
 
 <br/>
 
